@@ -73,12 +73,12 @@
   </url>
   
   <url>
-    <loc>/categories/data-mining/</loc>
+    <loc>/tags/data-mining/</loc>
     <lastmod>2019-02-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/data-mining/</loc>
+    <loc>/categories/data-mining/</loc>
     <lastmod>2019-02-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -110,11 +110,6 @@
   <url>
     <loc>/tags/twitter/</loc>
     <lastmod>2019-02-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/jupyter/</loc>
-    <lastmod>2019-09-07T13:09:48+03:00</lastmod>
   </url>
   
   <url>

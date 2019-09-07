@@ -224,7 +224,7 @@ gantt
     </item>
     
     <item>
-      <title>Digital Nudging</title>
+      <title>DIGITAL NUDGING</title>
       <link>/post/digital-nudging/2019-02-20-digital-nudging-rmd/</link>
       <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
       <guid>/post/digital-nudging/2019-02-20-digital-nudging-rmd/</guid>
@@ -237,8 +237,8 @@ gantt
 &lt;p&gt;&lt;strong&gt;Nudge theory&lt;/strong&gt; basically states that; by understanding how people think and what drives their decisions, we can use those factors to steer them into making decisions differently, through positive reinforcement. Research has shown that, by presenting choices differently rather than in a legislative manner, people can be influenced into making specific desired choices. This theory is widely used in behavioral economics by presenting subtle &lt;strong&gt;nudge units&lt;/strong&gt; intended to influence people’s thoughts about financial products. The theory was however initially more of a moral aspect meant to help people make better decisions in life and not as a tool for commercial gain. Over years of practice, different applications of the theory emerged.&lt;/p&gt;
 &lt;p&gt;Now that we have a basic understanding of what nudge theory is about, we can explore an applicable example. This post mainly focuses on a short research project I happened to be part of, actually my first hackathon experience hosted by Safaricom PLC. Let’s dive in!&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;the-challenge&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;The Challenge&lt;/h1&gt;
+&lt;div id=&#34;the-challenge&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;The Challenge&lt;/h3&gt;
 &lt;p&gt;This photo a team mate took at the hackathon contains a problem statement for the challenge:&lt;/p&gt;
 &lt;/center&gt;
 &lt;figure&gt;
@@ -248,13 +248,13 @@ Figure 1: The challenge
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/center&gt;
-&lt;/div&gt;
-&lt;div id=&#34;tools-used&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Tools used:&lt;/h1&gt;
+&lt;div id=&#34;tools-used&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Tools used:&lt;/h4&gt;
 &lt;p&gt;Our twitter data was fetched using &lt;strong&gt;R&lt;/strong&gt;, I have done a post on setting up a twitter API to fetch twitter data &lt;a href=&#34;https://beyondrawdata.rbind.io/2019/01/25/data-mining-in-r/&#34;&gt;here&lt;/a&gt;. &lt;strong&gt;R&lt;/strong&gt; has several packages (such as &lt;strong&gt;“tweeteR”&lt;/strong&gt; and &lt;strong&gt;“rtweet”&lt;/strong&gt;) that one can use to stream data from twitter. Our data cleaning and pre-processing was mainly done in &lt;strong&gt;Python&lt;/strong&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To keep this post concise, code for the workings has been minimized. &lt;a href=&#34;https://github.com/CarlvinJerry/sources/blob/master/content/post/2019-02-20-digital-nudging-rmd.Rmd&#34;&gt;The source code for this post can be found here,&lt;/a&gt; for anyone interested in trying out the same process. The code is well commented for easier understanding as well.&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;/div&gt;
 &lt;div id=&#34;fetching-data&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;1.Fetching Data&lt;/h4&gt;
 &lt;p&gt;The team agreed on a few terms to query data on from twitter. For an unbiased range of topics, we settled on fetching tweets under trending topics and a few more from random words. We had tweets from or containing the following:&lt;/p&gt;
@@ -405,14 +405,13 @@ Figure 1: The challenge
 &lt;h4&gt;3.Model Specifications&lt;/h4&gt;
 &lt;p&gt;Due to the nature of our problem,(we had several uncorrelated variables) we decided to do a classification analysis. This means we had to come up with a classifier model to regress &lt;strong&gt;n&lt;/strong&gt; variables based on our dependent variable, the &lt;strong&gt;Location&lt;/strong&gt; variable. The main challenge of classifier models is knowing what really goes on inside the models that leads to the final output. Even with higher levels of accuracy in some models, it is quite difficult o understand the paths of a given model. However, using &lt;strong&gt;Random forests&lt;/strong&gt; and &lt;strong&gt;Decision Tree&lt;/strong&gt; classifiers can give us a graphical representation of the criteria followed by the models to arrive at a given output. Another upper hand of decision tree models is that they require minimal data cleaning, less time consuming. Here is a detailed read on &lt;a href=&#34;https://medium.com/x8-the-ai-community/decision-trees-an-intuitive-introduction-86c2b39c1a6c&#34;&gt;how decision trees work&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;creating-train-test-sets.&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Creating Train &amp;amp; Test Sets.&lt;/h1&gt;
+&lt;div id=&#34;creating-train-test-sets.&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Creating Train &amp;amp; Test Sets.&lt;/h4&gt;
 &lt;p&gt;For the training and test data sets, we randomly split our data set into two sates. Usually, the best practice is to train the model with with a larger proportion of the data set. We therefore took &lt;strong&gt;80%&lt;/strong&gt; for training and &lt;strong&gt;20%&lt;/strong&gt; for test purposes.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;model-training.&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Model Training.&lt;/h1&gt;
+&lt;div id=&#34;model-training.&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Model Training.&lt;/h4&gt;
 &lt;p&gt;We trained our decision tree model to predict a &lt;strong&gt;class&lt;/strong&gt; “location”. Whether a location is &lt;strong&gt;geotagged&lt;/strong&gt; or &lt;strong&gt;not geotagged&lt;/strong&gt; based on whether the user is verified, protected, has over 500 followers, is retweeted by another verified user and the number of characters in their tweet. Bellow is the visual output of the trained model.&lt;/p&gt;
 &lt;/center&gt;
 &lt;figure&gt;
@@ -431,21 +430,21 @@ For our case, we only focus on what we found:&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;Finally, looking at depth 4 which originates from the node that checks is number of characters is &lt;strong&gt;equal to or more than 122&lt;/strong&gt;, we can see that &lt;strong&gt;12 percent&lt;/strong&gt; of users had tweets with character equal to or more than 124, with &lt;strong&gt;88 percent probability&lt;/strong&gt; of geotagging their tweets.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;div id=&#34;model-testing-and-performance-accuracy.&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;3.1 Model Testing and performance accuracy.&lt;/h4&gt;
 &lt;p&gt;With our model trained and outputs observed, we were able to run a test with our test subset. Here is our confusion matrix.&lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;confusion-matrix&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Confusion matrix&lt;/h1&gt;
+&lt;div id=&#34;confusion-matrix&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Confusion matrix&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;          predict_geotags
              NON-TAGGED TAGGED
   NON-TAGGED         90    248
   TAGGED              2   1043&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;model-accuracy&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Model Accuracy&lt;/h1&gt;
+&lt;div id=&#34;model-accuracy&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Model Accuracy&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;&amp;gt; #performance
 &amp;gt; accuracy_Test &amp;lt;- sum(diag(table_mat)) / sum(table_mat)
 &amp;gt; print(paste(&amp;#39;Accuracy for test is&amp;#39;, accuracy_Test))
@@ -462,6 +461,7 @@ Figure 3: The formula
 &lt;/center&gt;
 &lt;p&gt;For a better accuracy level, the model’s hyper-parameters can be tweaked to improve performance. Another option is implementing a random forest test.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;div id=&#34;conclusion-and-recommendation&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;4. Conclusion and Recommendation&lt;/h4&gt;
 &lt;p&gt;With our decision tree model, we were able to attain a high level of accuracy for a model that test whether users with &lt;strong&gt;tweets containing characters equal to or above 122&lt;/strong&gt; are likely to geotag their tweets. Our &lt;strong&gt;nudge&lt;/strong&gt; in this case is the number of characters in a tweet and precisely, &lt;strong&gt;124 or more&lt;/strong&gt;. Our recommendation therefore would be to encourage users to tweet longer or engage them in trending topics that require one to write more, for example a TT like # MyLifeHistoryInANutshell…-in the hope that a user will eventually geotag their tweet.&lt;/p&gt;
@@ -470,9 +470,8 @@ Figure 3: The formula
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;references&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;References&lt;/h1&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;References&lt;/h4&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.businessballs.com/improving-workplace-performance/nudge-theory/&#34;&gt;Business balls official website&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Thaler, R.H., Sunstein, C.R., and Balz, J.P. Choice Architecture. SSRN Electronic Journal (2010), 1–18; &lt;a href=&#34;https://ssrn.com/abstract=1583509&#34; class=&#34;uri&#34;&gt;https://ssrn.com/abstract=1583509&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -484,73 +483,7 @@ Figure 3: The formula
 &lt;center&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Display Jupyter Notebooks with Academic</title>
-      <link>/post/jupyter/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/jupyter/</guid>
-      <description>
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
-Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;Welcome to Academic!
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
-
-&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
-
-&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-jupyter lab index.ipynb
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
-
-&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
-
-&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;---
-title: My post&#39;s title
-date: 2019-09-01
-
-# Put any other Academic metadata here...
----
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Edit the metadata of your post, using the &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
-
-&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
-
-&lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
-
-&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34; target=&#34;_blank&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -583,7 +516,7 @@ date: 2019-09-01
 &lt;p&gt;To create a twitter app we can use for fetching metadata, we first need to have a Twitter account. We then need to go to the &lt;strong&gt;twitter dev site&lt;/strong&gt; &lt;a href=&#34;https://developer.twitter.com/&#34; class=&#34;uri&#34;&gt;https://developer.twitter.com/&lt;/a&gt; and log in with our user account.
 On the top right corner should be a drop down menu next to your username, go to APPS. At this point if you are doing this for the first time your Apps section should be blank. Click on “Create an app” to… create an app.&lt;/p&gt;
 &lt;center&gt;
-&lt;img src=&#34;https://github.com/CarlvinJerry/carlvinjerry.github.io/blob/master/post/MyImages/apps.PNG?raw=true&#34; alt=&#34;Figure 1: App login&#34; /&gt;
+&lt;img src=&#34;apps.PNG&#34; alt=&#34;png&#34; /&gt;
 &lt;/center&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;We then have to fill in the form below appropriately. Here is a breakdown of what’s required:&lt;/p&gt;
@@ -598,18 +531,21 @@ This should be your application’s home page web site. It is however not applic
 I would ignore the Callback URL field. If you are allowing users to log into your app to authenticate themselves, you’d enter the URL where they would be returned after they’ve given permission to Twitter to use your app.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;center&gt;
-&lt;img src=&#34;https://github.com/CarlvinJerry/CarlvinJerry.github.io/blob/master/post/MyImages/apps2.PNG?raw=true&#34; alt=&#34;Figure 2: Create an app&#34; /&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;apps2.PNG&#34; alt=&#34;png&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;png&lt;/p&gt;
+&lt;/div&gt;
 &lt;/center&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;The remaining fields should be quite straight forward but must be filled. Click “Create” once done and there you have your first twitter app.
 On your app is a menu with &lt;strong&gt;Keys and tokens&lt;/strong&gt;. These are the most important components since we will need them to access data from the APIs.Generate both consumer and access tokens (if not readily available) and take note of them. &lt;strong&gt;NB:&lt;/strong&gt; &lt;strong&gt;These keys are meant for your eyes only!&lt;/strong&gt;&lt;/p&gt;
 &lt;center&gt;
-&lt;img src=&#34;https://github.com/CarlvinJerry/CarlvinJerry.github.io/blob/master/post/MyImages/keys.PNG?raw=true&#34; alt=&#34;Figure 3: API Keys&#34; /&gt;
+&lt;img src=&#34;keys.PNG&#34; alt=&#34;png&#34; /&gt;
 &lt;/center&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;The final bit of setting up our twitter app is granting access permissions. We will mostly do fine with the &lt;strong&gt;read-only&lt;/strong&gt; if all we need is to fetch data but it can always be changed later.&lt;/p&gt;
 &lt;center&gt;
-&lt;img src=&#34;https://github.com/CarlvinJerry/CarlvinJerry.github.io/blob/master/post/MyImages/permisions.PNG?raw=true&#34; alt=&#34;Figure 4: Permissions&#34; /&gt;
+&lt;img src=&#34;permisions.png&#34; alt=&#34;png&#34; /&gt;
 &lt;/center&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;Now we can move on to the next step where we set up &lt;strong&gt;R&lt;/strong&gt; to query data from Twitter.&lt;/p&gt;
