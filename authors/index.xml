@@ -7,7 +7,7 @@
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Carlvin M, 2019</copyright><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>/img/Rplot</url>
       <title>Authors</title>
       <link>/authors/</link>
     </image>
@@ -17,9 +17,13 @@
       <link>/authors/admin/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.&lt;/p&gt;
+      <description>&lt;p&gt;Hello, I&amp;rsquo;m Carlvin, a lover of data.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.&lt;/p&gt;
+&lt;p&gt;My main skills are data analysis; including manipulation and visualization, statitics and predictive modeling. As a quantitative analyst, I develop and test existing to new models for financial markets analysis. I can work with &lt;strong&gt;R&lt;/strong&gt;, &lt;strong&gt;Python&lt;/strong&gt;, &lt;strong&gt;MS Office&lt;/strong&gt; and the &lt;strong&gt;Microsoft Azure&lt;/strong&gt; machine learning platform.&lt;/p&gt;
+
+&lt;p&gt;In the night, I love to analyze data, create visualizations to extract meaningful insights and explore different statistical concepts and their applications in real world problems.&lt;/p&gt;
+
+&lt;p&gt;This is my website and blog, here you will find my research work in posts, talks I partake in and my data science projects. Feel free to read, comment or offer new suggestions.&lt;/p&gt;
 </description>
     </item>
     
