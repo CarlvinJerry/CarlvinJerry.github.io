@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R | CARLVIN | BEYOND RAW DATA</title>
-    <link>/tags/r/</link>
-      <atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://beyondrawdata.rbind.io/tags/r/</link>
+      <atom:link href="https://beyondrawdata.rbind.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Carlvin M, 2019</copyright><lastBuildDate>Fri, 25 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/Rplot</url>
+      <url>https://beyondrawdata.rbind.io/img/Rplot</url>
       <title>R</title>
-      <link>/tags/r/</link>
+      <link>https://beyondrawdata.rbind.io/tags/r/</link>
     </image>
     
     <item>
       <title>Data Mining In R</title>
-      <link>/post/data-mining/2019-01-25-r-data-mining-rmd/</link>
+      <link>https://beyondrawdata.rbind.io/post/data-mining/2019-01-25-r-data-mining-rmd/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/post/data-mining/2019-01-25-r-data-mining-rmd/</guid>
+      <guid>https://beyondrawdata.rbind.io/post/data-mining/2019-01-25-r-data-mining-rmd/</guid>
       <description>
 
 

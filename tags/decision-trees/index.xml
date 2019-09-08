@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Decision trees | CARLVIN | BEYOND RAW DATA</title>
-    <link>/tags/decision-trees/</link>
-      <atom:link href="/tags/decision-trees/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://beyondrawdata.rbind.io/tags/decision-trees/</link>
+      <atom:link href="https://beyondrawdata.rbind.io/tags/decision-trees/index.xml" rel="self" type="application/rss+xml" />
     <description>Decision trees</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Carlvin M, 2019</copyright><lastBuildDate>Sun, 17 Feb 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/Rplot</url>
+      <url>https://beyondrawdata.rbind.io/img/Rplot</url>
       <title>Decision trees</title>
-      <link>/tags/decision-trees/</link>
+      <link>https://beyondrawdata.rbind.io/tags/decision-trees/</link>
     </image>
     
     <item>
       <title>DIGITAL NUDGING</title>
-      <link>/post/digital-nudging/2019-02-20-digital-nudging-rmd/</link>
+      <link>https://beyondrawdata.rbind.io/post/digital-nudging/2019-02-20-digital-nudging-rmd/</link>
       <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/digital-nudging/2019-02-20-digital-nudging-rmd/</guid>
+      <guid>https://beyondrawdata.rbind.io/post/digital-nudging/2019-02-20-digital-nudging-rmd/</guid>
       <description>
 
 
