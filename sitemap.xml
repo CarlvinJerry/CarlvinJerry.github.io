@@ -19,7 +19,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-09-07T13:09:48+03:00</lastmod>
+    <lastmod>2019-09-09T16:33:16+03:00</lastmod>
   </url>
   
   <url>
@@ -28,48 +28,63 @@
   </url>
   
   <url>
+    <loc>/project/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/tidy-tuesday/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/admin/</loc>
-    <lastmod>2019-09-07T15:41:57+03:00</lastmod>
+    <lastmod>2019-09-09T16:33:16+03:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2019-09-07T13:09:48+03:00</lastmod>
+    <lastmod>2019-09-09T16:33:16+03:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2019-09-07T13:09:48+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/data-visualization/</loc>
-    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-09T16:33:16+03:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/data-visualization/</loc>
-    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-09T16:33:16+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/data-visualization/</loc>
+    <lastmod>2019-09-09T16:33:16+03:00</lastmod>
   </url>
   
   <url>
     <loc>/post/exploratory-data-analysis/</loc>
-    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-09T16:33:16+03:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/r/</loc>
-    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-09T16:33:16+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2019-09-09T16:33:16+03:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2019-09-07T13:09:48+03:00</lastmod>
+    <lastmod>2019-09-09T16:33:16+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/twitter/</loc>
+    <lastmod>2019-09-09T16:33:16+03:00</lastmod>
   </url>
   
   <url>
@@ -94,42 +109,37 @@
   
   <url>
     <loc>/tags/data-mining/</loc>
-    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-09T16:33:16+03:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/data-mining/</loc>
-    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-09T16:33:16+03:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/decision-trees/</loc>
-    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-09T16:33:16+03:00</lastmod>
   </url>
   
   <url>
     <loc>/post/digital-nudging/</loc>
-    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-09T16:33:16+03:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/machine-learning/</loc>
-    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-09T16:33:16+03:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/python/</loc>
-    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-09T16:33:16+03:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/regression/</loc>
-    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/twitter/</loc>
-    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-09T16:33:16+03:00</lastmod>
   </url>
   
   <url>
@@ -144,7 +154,7 @@
   
   <url>
     <loc>/post/data-mining/</loc>
-    <lastmod>2019-01-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-09T16:33:16+03:00</lastmod>
   </url>
   
   <url>
@@ -154,31 +164,6 @@
   
   <url>
     <loc>/terms/</loc>
-    <lastmod>2019-09-07T13:09:48+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/deep-learning/</loc>
-    <lastmod>2019-09-07T13:09:48+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/demo/</loc>
-    <lastmod>2019-09-07T13:09:48+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/external-project/</loc>
-    <lastmod>2019-09-07T13:09:48+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/internal-project/</loc>
-    <lastmod>2019-09-07T13:09:48+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
     <lastmod>2019-09-07T13:09:48+03:00</lastmod>
   </url>
   

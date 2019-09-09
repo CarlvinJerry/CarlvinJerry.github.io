@@ -7,7 +7,7 @@
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Carlvin M, 2019</copyright>
     <image>
-      <url>/img/Rplot</url>
+      <url>/img/Rplot.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
@@ -621,7 +621,7 @@ Figure 3: The formula
     </item>
     
     <item>
-      <title>Data Mining In R</title>
+      <title>Twitter Data Mining In R</title>
       <link>/post/data-mining/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/post/data-mining/</guid>

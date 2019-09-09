@@ -7,7 +7,7 @@
     <description>R</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Carlvin M, 2019</copyright><lastBuildDate>Sun, 04 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/Rplot</url>
+      <url>/img/Rplot.png</url>
       <title>R</title>
       <link>/categories/r/</link>
     </image>
@@ -357,7 +357,7 @@ doPlots(mobileBanking.Df_cat, fun = plotHist, ii = 1:4, ncol = 2)&lt;/code&gt;&l
     </item>
     
     <item>
-      <title>Data Mining In R</title>
+      <title>Twitter Data Mining In R</title>
       <link>/post/data-mining/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/post/data-mining/</guid>
