@@ -13,22 +13,6 @@
     </image>
     
     <item>
-      <title>Handy Shiny Apps</title>
-      <link>https://beyondrawdata.rbind.io/project/shiny-apps/</link>
-      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://beyondrawdata.rbind.io/project/shiny-apps/</guid>
-      <description>
-
-
-&lt;div id=&#34;motivation&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Motivation&lt;/h1&gt;
-&lt;p&gt;This project contains links to my developed shiny apps you might find helpful…For every new interesting idea I have I’ll build an app. Some might be basic shiny, others might be complex shiny, depending on how important I think they are. Let me know what you think,suggestions for improvements and new apps are welcome.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; &lt;a href=&#34;https://carlvinjerry3.shinyapps.io/AreWeThereYet1n2/&#34;&gt;Live time progress&lt;/a&gt; A live time visualizing app with a stop watch for board games hosted in &lt;a href=&#34;https://www.shinyapps.io/&#34;&gt;ShinyApp.io&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Tidy Tuesday</title>
       <link>https://beyondrawdata.rbind.io/project/tidy-tuesday/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
@@ -418,6 +402,22 @@ doPlots(mobileBanking.Df_cat, fun = plotHist, ii = 1:4, ncol = 2)&lt;/code&gt;&l
 &lt;p&gt;&lt;img src=&#34;https://fontmeme.com/permalink/190129/8b378e9ce35b7a28dd150c4f1d656807.png&#34; /&gt;&lt;/p&gt;
 &lt;center&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Handy Shiny Apps</title>
+      <link>https://beyondrawdata.rbind.io/project/shiny-apps/</link>
+      <pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://beyondrawdata.rbind.io/project/shiny-apps/</guid>
+      <description>
+
+
+&lt;div id=&#34;motivation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Motivation&lt;/h1&gt;
+&lt;p&gt;This project contains links to my developed shiny apps you might find helpful…For every new interesting idea I have I’ll build an app. Some might be basic shiny, others might be complex shiny, depending on how important I think they are. Let me know what you think,suggestions for improvements and new apps are welcome.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; &lt;a href=&#34;https://carlvinjerry3.shinyapps.io/AreWeThereYet1n2/&#34;&gt;Live time progress&lt;/a&gt; A live time visualizing app with a stop watch for board games hosted in &lt;a href=&#34;https://www.shinyapps.io/&#34;&gt;ShinyApp.io&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
