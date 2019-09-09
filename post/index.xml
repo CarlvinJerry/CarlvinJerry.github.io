@@ -2,259 +2,392 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | CARLVIN | BEYOND RAW DATA</title>
-    <link>https://beyondrawdata.rbind.io/post/</link>
-      <atom:link href="https://beyondrawdata.rbind.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Carlvin M, 2019</copyright>
     <image>
-      <url>https://beyondrawdata.rbind.io/img/Rplot</url>
+      <url>/img/Rplot</url>
       <title>Posts</title>
-      <link>https://beyondrawdata.rbind.io/post/</link>
+      <link>/post/</link>
     </image>
     
     <item>
-      <title>Writing technical content in Academic</title>
-      <link>https://beyondrawdata.rbind.io/post/writing-technical-content/</link>
-      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://beyondrawdata.rbind.io/post/writing-technical-content/</guid>
-      <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
+      <title>Exploratory Data Analysis</title>
+      <link>/post/exploratory-data-analysis/</link>
+      <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/post/exploratory-data-analysis/</guid>
+      <description>
 
-&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;On this page, you&#39;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
-
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the &lt;code&gt;highlight&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;```python
-import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-```
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;renders as&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
-
-&lt;p&gt;Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file and adding &lt;code&gt;markup: mmark&lt;/code&gt; to your page front matter.&lt;/p&gt;
-
-&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$$...$$&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$\gamma_{n} = \frac{ 
-\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
-\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
-{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;renders as&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$$\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2$$&lt;/code&gt; renders as &lt;span  class=&#34;math&#34;&gt;\(\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2\)&lt;/span&gt; .&lt;/p&gt;
-
-&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the &lt;code&gt;\\&lt;/code&gt; math linebreak:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \\
-1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;renders as&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[f(k;p_0^*) = \begin{cases} p_0^* &amp; \text{if }k=1, \\
-1-p_0^* &amp; \text {if }k=0.\end{cases}\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
-
-&lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
-
-&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;```mermaid
-graph TD;
-  A--&amp;gt;B;
-  A--&amp;gt;C;
-  B--&amp;gt;D;
-  C--&amp;gt;D;
-```
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;renders as&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD;
-  A--&amp;gt;B;
-  A--&amp;gt;C;
-  B--&amp;gt;D;
-  C--&amp;gt;D;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;```mermaid
-sequenceDiagram
-  participant Alice
-  participant Bob
-  Alice-&amp;gt;John: Hello John, how are you?
-  loop Healthcheck
-      John-&amp;gt;John: Fight against hypochondria
-  end
-  Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail...
-  John--&amp;gt;Alice: Great!
-  John-&amp;gt;Bob: How about you?
-  Bob--&amp;gt;John: Jolly good!
-```
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;renders as&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;sequenceDiagram
-  participant Alice
-  participant Bob
-  Alice-&amp;gt;John: Hello John, how are you?
-  loop Healthcheck
-      John-&amp;gt;John: Fight against hypochondria
-  end
-  Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail...
-  John--&amp;gt;Alice: Great!
-  John-&amp;gt;Bob: How about you?
-  Bob--&amp;gt;John: Jolly good!
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;```mermaid
-gantt
-  dateFormat  YYYY-MM-DD
-  section Section
-  A task           :a1, 2014-01-01, 30d
-  Another task     :after a1  , 20d
-  section Another
-  Task in sec      :2014-01-12  , 12d
-  another task      : 24d
-```
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;renders as&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;gantt
-  dateFormat  YYYY-MM-DD
-  section Section
-  A task           :a1, 2014-01-01, 30d
-  Another task     :after a1  , 20d
-  section Another
-  Task in sec      :2014-01-12  , 12d
-  another task      : 24d
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
-
-&lt;p&gt;You can even write your todo lists in Academic too:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- [x] Write math example
-- [x] Write diagram example
-- [ ] Do something else
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;renders as&lt;/p&gt;
-
+&lt;blockquote&gt;
+&lt;p&gt;“The goal is to turn data into information and information into insight.” – Carly Fiorina, former chief executive officer, Hewlett Packard.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div id=&#34;introduction&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;INTRODUCTION&lt;/h3&gt;
+&lt;p&gt;If you are familiar with data analysis then I’m certain that you fully relate to the above statement. After all, it would be pointless to play around with lots of data just for the love of it.&lt;/p&gt;
+&lt;p&gt;Data is gold, and the more you have the better off you are. However, raw unprocessed data is of no use unless you manipulate and gain insights from it. Before embarking on statistical modelling and visualization of your data, it is very important to first have an understanding of the data itself. Exploratory Data Analysis (&lt;strong&gt;EDA&lt;/strong&gt;) aids in visualization, transformation, and generally cleaning or remodeling data before diving deep into statistics and predictive modelling.&lt;/p&gt;
+&lt;p&gt;There are not set rules to be followed when performing EDA. As a data reparation phase, one is allowed to decide what suits them best in order to gain an understanding of their data. However, there are two most important questions one should seek to answer while studying their data:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34;&gt; Write math example&lt;/li&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34;&gt; Write diagram example&lt;/li&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled=&#34;&#34;&gt; Do something else&lt;/li&gt;
+&lt;li&gt;Is there variation within my variables?&lt;/li&gt;
+&lt;li&gt;Is there any correlation between my variables?&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;That being said, EDA involves the following checks among others:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Descriptive Statistics&lt;/strong&gt; - Give a summarized understanding of the data, usually as measures of central tendency and variability.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mean&lt;/strong&gt; - Arithmetic average&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Median&lt;/strong&gt; - middle value&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mode&lt;/strong&gt; - most frequent value&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Standard Deviation&lt;/strong&gt; - variation from the mean&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kurtosis&lt;/strong&gt; -peakedness of the data distribution&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Skewness&lt;/strong&gt; - symmetry of the data distribution&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Groupings of data&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Missing values&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ANOVA:&lt;/strong&gt; Analysis of variance&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Graphical visualization&lt;/strong&gt;, not restricted to:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Histogram&lt;/strong&gt; -frequency bar plots&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Density estimation&lt;/strong&gt; - an estimation if the frequency distribution based on sample data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Box plots&lt;/strong&gt; - A visual representation of median, quantiles, symmetry and ourtliers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scatter plots&lt;/strong&gt; - a graphical display of variables plotted on the x and y axes.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this post, we will perform EDA on a sample data set containing responses on mobile banking survey in Kenya. If you would like to follow along with the same data, you can download it &lt;a href=&#34;https://github.com/CarlvinJerry/sources/blob/master/data/Mobile%20Banking%20in%20Kenya.csv&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;data-importation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Data Importation&lt;/h1&gt;
+&lt;p&gt;The code chunk below imports our data set into R.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Loading Data into R  toc_depth: 2
+mobileBanking.Df &amp;lt;- read.csv(&amp;quot;J://Personalprojects//Blogsite//data//MobileBankinginKenya.csv&amp;quot;, header = TRUE, stringsAsFactors = FALSE )
+mobileBanking.Df &amp;lt;- mobileBanking.Df[,-1] #Remove the number column which is Irrelevant&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;data-inspection&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;1.0.0 Data Inspection&lt;/h4&gt;
+&lt;p&gt;Once our sample data set loaded, we can check for features present in it. We first need to load all the libraries needed for data analysis and manipulation.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt; #Load required packages or install if not present.----
+load.libraries &amp;lt;- c(&amp;#39;data.table&amp;#39;,&amp;#39;tidyverse&amp;#39;,&amp;#39;gridExtra&amp;#39;, &amp;#39;corrplot&amp;#39;, &amp;#39;GGally&amp;#39;, &amp;#39;ggplot2&amp;#39;, &amp;#39;e1071&amp;#39;, &amp;#39;dplyr&amp;#39;)
+install.lib &amp;lt;- load.libraries[!load.libraries %in% installed.packages()]
 
-&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
+for(libs in install.lib) install.packages(libs, dependences = TRUE)
 
-&lt;p&gt;Represent your data in tables:&lt;/p&gt;
+#Load libraries and flag TRUE
+sapply(load.libraries, require, character = TRUE)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The function above takes in a list of required libraries, checks if they are already installed and installs them if not. It then loads all the packages one at a go.&lt;/p&gt;
+&lt;/center&gt;
+&lt;figure&gt;
+&lt;img src=&#34;packages.png&#34; alt=&#34;packages&#34; /&gt;
+&lt;figcaption&gt;
+Figure 1: Loaded packages
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+&lt;div id=&#34;observing-the-data-structure&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;1.1.0 Observing the data structure&lt;/h4&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dim(mobileBanking.Df)
+## [1] 43 11&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The data set has 43 rows with 11 Variables. We therefore explore the data types present in each variable column.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Check Categorical VS Numeric Characters----
+cat_vars &amp;lt;- names(mobileBanking.Df)[which(sapply(mobileBanking.Df, is.character))]
+cat_vars
+##  [1] &amp;quot;Gender&amp;quot;                       &amp;quot;Age.Range&amp;quot;                   
+##  [3] &amp;quot;Have.Bak.Account&amp;quot;             &amp;quot;Bank.account.connected.to.MB&amp;quot;
+##  [5] &amp;quot;MB.used.for&amp;quot;                  &amp;quot;Importance&amp;quot;                  
+##  [7] &amp;quot;Benefit&amp;quot;                      &amp;quot;Bank.Visit&amp;quot;                  
+##  [9] &amp;quot;MB.Safety&amp;quot;                    &amp;quot;Influence&amp;quot;                   
+## [11] &amp;quot;Satisfaction&amp;quot;
 
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-&lt;/code&gt;&lt;/pre&gt;
+numeric_vars &amp;lt;- names(mobileBanking.Df)[which(sapply(mobileBanking.Df, is.numeric))]
+numeric_vars
+## character(0)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To identify the data types, we can check for numeric and categorical variables present in the data. In our case, all the variables in our data set are categorical variables. We will therefore explore the data from a categorical approach rather than numeric. There exists different visualization methods for different data types. Now that we have established the general structure of the data, we can check if there are any missing values within the variables.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Checking data for any missing values
+colSums(sapply(mobileBanking.Df, is.na))
+##                       Gender                    Age.Range 
+##                            0                            0 
+##             Have.Bak.Account Bank.account.connected.to.MB 
+##                            0                            0 
+##                  MB.used.for                   Importance 
+##                            0                            0 
+##                      Benefit                   Bank.Visit 
+##                            0                            0 
+##                    MB.Safety                    Influence 
+##                            0                            0 
+##                 Satisfaction 
+##                            0&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We have no NULL values in our data. We can therefore proceed to analysis without worrying about missing values. In a case whereby there exists null values, one can choose whether to replace the nulls with the most appropriate values or remove the rows with nulls from the data. This is important for later stages of analysis that include data modelling, like Machine Learning.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;data-summary&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;1.1.1 Data Summary&lt;/h4&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Data Summary----
+summary(mobileBanking.Df)
+##     Gender           Age.Range         Have.Bak.Account  
+##  Length:43          Length:43          Length:43         
+##  Class :character   Class :character   Class :character  
+##  Mode  :character   Mode  :character   Mode  :character  
+##  Bank.account.connected.to.MB MB.used.for         Importance       
+##  Length:43                    Length:43          Length:43         
+##  Class :character             Class :character   Class :character  
+##  Mode  :character             Mode  :character   Mode  :character  
+##    Benefit           Bank.Visit         MB.Safety        
+##  Length:43          Length:43          Length:43         
+##  Class :character   Class :character   Class :character  
+##  Mode  :character   Mode  :character   Mode  :character  
+##   Influence         Satisfaction      
+##  Length:43          Length:43         
+##  Class :character   Class :character  
+##  Mode  :character   Mode  :character&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;&lt;em&gt;Summary()&lt;/em&gt;&lt;/strong&gt; function comes in handy at summarizing data. I our case, there is no statistical measures since all our variables are categorical. Important to note that the function also specifies the specific data types. There are more than enough ways to inspect data structures in R.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;getting-insights-from-the-data&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;2.0.0 Getting Insights from the data&lt;/h3&gt;
+&lt;div id=&#34;descriptive-statistics-for-categorical-data&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;2.1.0 Descriptive Statistics For Categorical Data&lt;/h4&gt;
+&lt;p&gt;The main goal of descriptive statistics is to inform data analysts on the main features of either numerical or categorical data, using sample summaries represented as either tables, individual numbers or charts and graphs. Since we only have categorical data, I will illustrate the most used forms of descriptive statistics for the same. However, like I mentioned earlier, there are more than enough ways to analyze data in R.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div id=&#34;frequencies&#34; class=&#34;section level5&#34;&gt;
+&lt;h5&gt;2.1.1 Frequencies&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Frequencies&lt;/strong&gt; illustrate the number of occurrences or observations of a particular category in data. We use &lt;a href=&#34;https://en.wikipedia.org/wiki/Contingency_table&#34;&gt;contigency tables&lt;/a&gt; to present this information. In R this can be achieved using the &lt;strong&gt;&lt;em&gt;table()&lt;/em&gt;&lt;/strong&gt; function.&lt;/p&gt;
+&lt;p&gt;From out data, the total distribution of respondents based on gender looks like this;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Gender frequencies
+#library(kableExtra)
+table(mobileBanking.Df$Gender)
+## 
+## Female   Male 
+##     20     23&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can illustrate multiple attributes using cross classification tables such as;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#library(kableExtra)
+# Cross classification counts for gender by Mobile banking safety opinion
+table(mobileBanking.Df$Gender, mobileBanking.Df$MB.Safety)
+##         
+##          NotAtAll Somewhat Very
+##   Female        3       11    6
+##   Male          0       19    4&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Multidimensional tables with three or more categories can also be achieved using the &lt;strong&gt;&lt;em&gt;ftable()&lt;/em&gt;&lt;/strong&gt; . As an example, let’s check out the number of respondents based on gender, mobile banking safety opinion and how often they visit the bank.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Counts by gender, opinion and bank visits
+table_ &amp;lt;- table(mobileBanking.Df$Gender, mobileBanking.Df$MB.Safety, mobileBanking.Df$Bank.Visit)
+ftable(table_)
+##                  FewTimesAyear OnceMonth
+##                                         
+## Female NotAtAll              3         0
+##        Somewhat             11         0
+##        Very                  5         1
+## Male   NotAtAll              0         0
+##        Somewhat             15         4
+##        Very                  4         0&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;proportions&#34; class=&#34;section level5&#34;&gt;
+&lt;h5&gt;2.1.1 Proportions&lt;/h5&gt;
+&lt;p&gt;Proportions are basically contingency tables represented as percentages. From our previous tables, we can do proportions for the same by applying &lt;strong&gt;&lt;em&gt;prop.table()&lt;/em&gt;&lt;/strong&gt; to output produced by the *&lt;strong&gt;table()&lt;/strong&gt; function. Proportions for the above will then be;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#library(kableExtra)
+#Gender frequencies proportions
+prop.table(table(mobileBanking.Df$Gender))
+## 
+##    Female      Male 
+## 0.4651163 0.5348837
 
-&lt;p&gt;renders as&lt;/p&gt;
+#Percentage idistribution for Gender by mobile banking safety
+prop.table(table(mobileBanking.Df$Gender, mobileBanking.Df$MB.Safety))
+##         
+##            NotAtAll   Somewhat       Very
+##   Female 0.06976744 0.25581395 0.13953488
+##   Male   0.00000000 0.44186047 0.09302326
 
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;First Header&lt;/th&gt;
-&lt;th&gt;Second Header&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
+#Percentage by gender, opinion and bank visits, rounding off to 2 decimal places
+table_ &amp;lt;- table(mobileBanking.Df$Gender, mobileBanking.Df$MB.Safety, mobileBanking.Df$Bank.Visit)
+ftable(round(prop.table(table_),2))
+##                  FewTimesAyear OnceMonth
+##                                         
+## Female NotAtAll           0.07      0.00
+##        Somewhat           0.26      0.00
+##        Very               0.12      0.02
+## Male   NotAtAll           0.00      0.00
+##        Somewhat           0.35      0.09
+##        Very               0.09      0.00&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;marginals&#34; class=&#34;section level5&#34;&gt;
+&lt;h5&gt;2.1.2 Marginals&lt;/h5&gt;
+&lt;p&gt;Marginals measure counts across columns or rows in a contingency table. &lt;strong&gt;&lt;em&gt;Margin.table()&lt;/em&gt;&lt;/strong&gt; gives us the frequencies while &lt;strong&gt;&lt;em&gt;prop.table()&lt;/em&gt;&lt;/strong&gt; gives us the percentages. Using our previous examples on frequencies;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# FREQUENCY MARGINALS
+# row marginals - totals for each gender across mobile banking opinion
+margin.table(table(mobileBanking.Df$Gender, mobileBanking.Df$MB.Safety), 1)
+## 
+## Female   Male 
+##     20     23
 
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
+# colum marginals -  totals for each gender across mobile banking opinion
+margin.table(table(mobileBanking.Df$Gender, mobileBanking.Df$MB.Safety), 2)
+## 
+## NotAtAll Somewhat     Very 
+##        3       30       10
 
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+# PERCENTAGE MARGINALS
+# row marginals - row percentages across gender
+prop.table(table(mobileBanking.Df$Gender, mobileBanking.Df$MB.Safety), margin = 1)
+##         
+##          NotAtAll Somewhat     Very
+##   Female 0.150000 0.550000 0.300000
+##   Male   0.000000 0.826087 0.173913
 
-&lt;h3 id=&#34;asides&#34;&gt;Asides&lt;/h3&gt;
+# colum marginals - column percentages acrossmobile banking opinion
+prop.table(table(mobileBanking.Df$Gender, mobileBanking.Df$MB.Safety), margin = 2)
+##         
+##           NotAtAll  Somewhat      Very
+##   Female 1.0000000 0.3666667 0.6000000
+##   Male   0.0000000 0.6333333 0.4000000&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;visualizing-distributions&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;2.2.0 Visualizing Distributions&lt;/h4&gt;
+&lt;p&gt;The code chunk bellow is a function that takes in our data set and plots all the present variables in it. Since we have categorical variable only, we will use &lt;strong&gt;bar plots&lt;/strong&gt; for visualization. They are the most appropriate for categorical data.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Loading Data into R  toc_depth: 2
+mobileBanking.Df &amp;lt;- read.csv(&amp;quot;J://Personalprojects//Blogsite//data//MobileBankinginKenya.csv&amp;quot;, header = TRUE, stringsAsFactors = FALSE )
+mobileBanking.Df &amp;lt;- mobileBanking.Df[,-1] #Remove the number column which is Irrelevant
 
-&lt;p&gt;Academic supports a Markdown extension for asides, also referred to as &lt;em&gt;notices&lt;/em&gt; or &lt;em&gt;hints&lt;/em&gt;. By prefixing a paragraph with &lt;code&gt;A&amp;gt;&lt;/code&gt;, it will render as an aside. You can enable this feature by adding &lt;code&gt;markup: mmark&lt;/code&gt; to your page front matter, or alternatively using the &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts&#34;&gt;&lt;em&gt;Alert&lt;/em&gt; shortcode&lt;/a&gt;.&lt;/p&gt;
+#Check Categorical VS Numeric Characters----
+cat_vars &amp;lt;- names(mobileBanking.Df)[which(sapply(mobileBanking.Df, is.character))]
+numeric_vars &amp;lt;- names(mobileBanking.Df)[which(sapply(mobileBanking.Df, is.numeric))]
 
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;A&amp;gt; A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;renders as&lt;/p&gt;
+####Convert character to factors----
+library(data.table)
+setDT(mobileBanking.Df)[,(cat_vars) := lapply(.SD, as.factor), .SDcols = cat_vars]
 
-&lt;aside&gt;
-&lt;p&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/p&gt;
-&lt;/aside&gt;
+mobileBanking.Df_cat &amp;lt;- mobileBanking.Df[,.SD, .SDcols = cat_vars]
+    ##mobileBanking.Df_cont &amp;lt;- mobileBanking.Df[,.SD,.SDcols = numeric_vars]
 
-&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+#Functions for Plots---
+library(ggplot2)
+library(gridExtra)
+plotHist &amp;lt;- function(data_in, i) {
+  data &amp;lt;- data.frame(x=data_in[[i]])
+  p &amp;lt;- ggplot(data=data, aes(x=factor(x))) + stat_count() + xlab(colnames(data_in)[i]) + theme_light() + 
+    theme(axis.text.x = element_text(angle = 90, hjust =1))
+  return (p)
+}
+
+doPlots &amp;lt;- function(data_in, fun, ii, ncol=3) {
+  pp &amp;lt;- list()
+  for (i in ii) {
+    p &amp;lt;- fun(data_in=data_in, i=i)
+    pp &amp;lt;- c(pp, list(p))
+  }
+  do.call(&amp;quot;grid.arrange&amp;quot;, c(pp, ncol=ncol))
+}
+
+plotDen &amp;lt;- function(data_in, i){
+  data &amp;lt;- data.frame(x=data_in[[i]], SalePrice = data_in$SalePrice)
+  p &amp;lt;- ggplot(data= data) + geom_line(aes(x = x), stat = &amp;#39;density&amp;#39;, size = 1,alpha = 1.0) +
+    xlab(paste0((colnames(data_in)[i]), &amp;#39;\n&amp;#39;, &amp;#39;Skewness: &amp;#39;,round(skewness(data_in[[i]], na.rm = TRUE), 2))) + theme_light() 
+  return(p)
+  
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;variable-distributions&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Variable Distributions&lt;/h4&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Plotting categorical values----
+#Bar plots
+doPlots(mobileBanking.Df_cat, fun = plotHist, ii = 1:4, ncol = 2)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/exploratory-data-analysis/index_files/figure-html/barplots1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;gender&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Gender&lt;/h4&gt;
+&lt;p&gt;It can be seen that a larger number of respondents were male, this is however by a small margin. If we had a larger data set we could have more female respondents.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;age-range&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Age Range&lt;/h4&gt;
+&lt;p&gt;A majority of respondents were younger guys between age &lt;strong&gt;21-30&lt;/strong&gt;, followed by the &lt;strong&gt;31-40&lt;/strong&gt; age bracket. The least respondents were those above age &lt;strong&gt;41&lt;/strong&gt;. This could be probably because the older people chose not to participate in the survey as opposed to the younger ones, or that they somehow never got to opportunity to do so. A good example is the medium by which the survey was conducted, which the older people didn’t have.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;have-bank-account-linked-to-mobile-banking&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Have Bank Account &amp;amp; Linked To Mobile Banking&lt;/h4&gt;
+&lt;p&gt;All the respondents had bank accounts. A very small number had their business bank accounts linked to mobile banking. Majority had linked their current accounts probably due to the convenience that comes with mobile banking like frequent or timeless withdrawals.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/exploratory-data-analysis/index_files/figure-html/barplots2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;uses-of-mobile-banking-importance-and-benefits&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Uses Of Mobile Banking, Importance And Benefits&lt;/h4&gt;
+&lt;p&gt;Most respondents use mobile banking services for making payments. this is followed by cash withdrawals. Airtime purchase and money transfer happen to be the least uses for the service. This could be because they are easily accessible needs unlike cash withdrawal and making payments in terms of mobility convenience.&lt;/p&gt;
+&lt;p&gt;Most respondents found mobile banking services &lt;strong&gt;very important&lt;/strong&gt;, probably owing to the affordable cost charges and good service which could mean less usability issues when using the services.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/exploratory-data-analysis/index_files/figure-html/barplots3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;bank-visits&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Bank Visits&lt;/h4&gt;
+&lt;p&gt;We had most users who visit their banks a few times a year while the least do it once a month. This means that generally, fewer people visit the bank physically. This could be a major impact of mobile banking services.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;mobile-banking-safety-influence-and-satisfaction&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Mobile Banking Safety, Influence And Satisfaction&lt;/h4&gt;
+&lt;p&gt;Despite being majorly satisfied by the services, most respondents did not find mobile banking services very safe. It is also seen as time saving which is probably why we had very few bank visits in general.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;conclusion-from-variable-distributions&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Conclusion from variable distributions&lt;/h1&gt;
+&lt;p&gt;It can be concluded that mobile banking is mainly preferred by younger people, a majority being of the male gender. However, the only benefit most users find from mobile banking seems to be the convenience it brings. Safety is still a major concern.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;That’s basically it for exploratory data analysis. I made sure to cover the basics, meaning there’s still much to be added on to this; more visualizations, &lt;a href=&#34;https://www.researchgate.net/post/What_are_the_best_R_packages_for_exploratory_data_analysis_of_psychological_data&#34;&gt;packages&lt;/a&gt; that simplify the whole process etc…This is to be continued. For a detailed documentation on the same, &lt;a href=&#34;https://r4ds.had.co.nz/index.html&#34;&gt;here’s&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hadleywickham?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor&#34;&gt;Hadley Wickham’s&lt;/a&gt; &lt;strong&gt;R for Data Science&lt;/strong&gt; book you can use as a reference point.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&#34;https://fontmeme.com/permalink/190129/8b378e9ce35b7a28dd150c4f1d656807.png&#34; /&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     
     <item>
-      <title>DIGITAL NUDGING</title>
-      <link>https://beyondrawdata.rbind.io/post/digital-nudging/2019-02-20-digital-nudging-rmd/</link>
+      <title>Digital Nudging</title>
+      <link>/post/digital-nudging/</link>
       <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://beyondrawdata.rbind.io/post/digital-nudging/2019-02-20-digital-nudging-rmd/</guid>
+      <guid>/post/digital-nudging/</guid>
       <description>
 
 
-&lt;div id=&#34;introduction&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Introduction:&lt;/h3&gt;
+&lt;div id=&#34;introduction&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Introduction:&lt;/h1&gt;
 &lt;p&gt;Here is a fun fact; An average human being (probably an adult) makes close to 30,000 conscious decisions every day. This isn’t entirely true though, in fact, I just made that number up. I could be right because if you think about it, how many decisions would you say you make on a day to day basis? Depending on who you are the above obviously varies widely and you know best. We all make &lt;strong&gt;&lt;strong&gt;n&lt;/strong&gt;&lt;/strong&gt; decisions every day- what to do, eat, buy or hit. The real question however is, do we always choose well? Are there any other factors at hand that influence our decision making process? Are all these factors, if any, always straight forward choices or do we sometimes get &lt;strong&gt;“nudged”&lt;/strong&gt; into these choices we make?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Nudge theory&lt;/strong&gt; basically states that; by understanding how people think and what drives their decisions, we can use those factors to steer them into making decisions differently, through positive reinforcement. Research has shown that, by presenting choices differently rather than in a legislative manner, people can be influenced into making specific desired choices. This theory is widely used in behavioral economics by presenting subtle &lt;strong&gt;nudge units&lt;/strong&gt; intended to influence people’s thoughts about financial products. The theory was however initially more of a moral aspect meant to help people make better decisions in life and not as a tool for commercial gain. Over years of practice, different applications of the theory emerged.&lt;/p&gt;
 &lt;p&gt;Now that we have a basic understanding of what nudge theory is about, we can explore an applicable example. This post mainly focuses on a short research project I happened to be part of, actually my first hackathon experience hosted by Safaricom PLC. Let’s dive in!&lt;/p&gt;
-&lt;/div&gt;
 &lt;div id=&#34;the-challenge&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;The Challenge&lt;/h3&gt;
 &lt;p&gt;This photo a team mate took at the hackathon contains a problem statement for the challenge:&lt;/p&gt;
 &lt;/center&gt;
 &lt;figure&gt;
-&lt;img class=&#34;pure-u-1-2&#34; src=&#34;https://github.com/CarlvinJerry/CarlvinJerry.github.io/blob/master/post/MyImages/theChallenge.jpg?raw=true&#34; height=&#34;100%&#34; width=&#34;Auto&#34;&gt;
+&lt;img src=&#34;https://github.com/CarlvinJerry/sources/blob/master/static/MyImages/theChallenge.jpg?raw=true&#34; alt=&#34;the challenge&#34; /&gt;
 &lt;figcaption&gt;
 Figure 1: The challenge
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/center&gt;
-&lt;div id=&#34;tools-used&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;Tools used:&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;tools-used&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Tools used:&lt;/h1&gt;
 &lt;p&gt;Our twitter data was fetched using &lt;strong&gt;R&lt;/strong&gt;, I have done a post on setting up a twitter API to fetch twitter data &lt;a href=&#34;https://beyondrawdata.rbind.io/2019/01/25/data-mining-in-r/&#34;&gt;here&lt;/a&gt;. &lt;strong&gt;R&lt;/strong&gt; has several packages (such as &lt;strong&gt;“tweeteR”&lt;/strong&gt; and &lt;strong&gt;“rtweet”&lt;/strong&gt;) that one can use to stream data from twitter. Our data cleaning and pre-processing was mainly done in &lt;strong&gt;Python&lt;/strong&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To keep this post concise, code for the workings has been minimized. &lt;a href=&#34;https://github.com/CarlvinJerry/sources/blob/master/content/post/2019-02-20-digital-nudging-rmd.Rmd&#34;&gt;The source code for this post can be found here,&lt;/a&gt; for anyone interested in trying out the same process. The code is well commented for easier understanding as well.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;/div&gt;
 &lt;div id=&#34;fetching-data&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;1.Fetching Data&lt;/h4&gt;
 &lt;p&gt;The team agreed on a few terms to query data on from twitter. For an unbiased range of topics, we settled on fetching tweets under trending topics and a few more from random words. We had tweets from or containing the following:&lt;/p&gt;
@@ -405,17 +538,18 @@ Figure 1: The challenge
 &lt;h4&gt;3.Model Specifications&lt;/h4&gt;
 &lt;p&gt;Due to the nature of our problem,(we had several uncorrelated variables) we decided to do a classification analysis. This means we had to come up with a classifier model to regress &lt;strong&gt;n&lt;/strong&gt; variables based on our dependent variable, the &lt;strong&gt;Location&lt;/strong&gt; variable. The main challenge of classifier models is knowing what really goes on inside the models that leads to the final output. Even with higher levels of accuracy in some models, it is quite difficult o understand the paths of a given model. However, using &lt;strong&gt;Random forests&lt;/strong&gt; and &lt;strong&gt;Decision Tree&lt;/strong&gt; classifiers can give us a graphical representation of the criteria followed by the models to arrive at a given output. Another upper hand of decision tree models is that they require minimal data cleaning, less time consuming. Here is a detailed read on &lt;a href=&#34;https://medium.com/x8-the-ai-community/decision-trees-an-intuitive-introduction-86c2b39c1a6c&#34;&gt;how decision trees work&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;creating-train-test-sets.&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;Creating Train &amp;amp; Test Sets.&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&#34;creating-train-test-sets.&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Creating Train &amp;amp; Test Sets.&lt;/h1&gt;
 &lt;p&gt;For the training and test data sets, we randomly split our data set into two sates. Usually, the best practice is to train the model with with a larger proportion of the data set. We therefore took &lt;strong&gt;80%&lt;/strong&gt; for training and &lt;strong&gt;20%&lt;/strong&gt; for test purposes.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;model-training.&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;Model Training.&lt;/h4&gt;
+&lt;div id=&#34;model-training.&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Model Training.&lt;/h1&gt;
 &lt;p&gt;We trained our decision tree model to predict a &lt;strong&gt;class&lt;/strong&gt; “location”. Whether a location is &lt;strong&gt;geotagged&lt;/strong&gt; or &lt;strong&gt;not geotagged&lt;/strong&gt; based on whether the user is verified, protected, has over 500 followers, is retweeted by another verified user and the number of characters in their tweet. Bellow is the visual output of the trained model.&lt;/p&gt;
 &lt;/center&gt;
 &lt;figure&gt;
-&lt;img class=&#34;pure-u-1-2 pure-u-md-1-3&#34; src=&#34;https://github.com/CarlvinJerry/CarlvinJerry.github.io/blob/master/post/MyImages/tagged.png?raw=true&#34;  height=&#34;100%&#34; width=&#34;Auto&#34;&gt;
+&lt;img src=&#34;https://github.com/CarlvinJerry/sources/blob/master/static/MyImages/tagged.png?raw=true&#34; alt=&#34;Tags&#34; /&gt;
 &lt;figcaption&gt;
 Figure 2: The Tree
 &lt;/figcaption&gt;
@@ -430,21 +564,21 @@ For our case, we only focus on what we found:&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;Finally, looking at depth 4 which originates from the node that checks is number of characters is &lt;strong&gt;equal to or more than 122&lt;/strong&gt;, we can see that &lt;strong&gt;12 percent&lt;/strong&gt; of users had tweets with character equal to or more than 124, with &lt;strong&gt;88 percent probability&lt;/strong&gt; of geotagging their tweets.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;/div&gt;
 &lt;div id=&#34;model-testing-and-performance-accuracy.&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;3.1 Model Testing and performance accuracy.&lt;/h4&gt;
 &lt;p&gt;With our model trained and outputs observed, we were able to run a test with our test subset. Here is our confusion matrix.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;confusion-matrix&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;Confusion matrix&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&#34;confusion-matrix&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Confusion matrix&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;          predict_geotags
              NON-TAGGED TAGGED
   NON-TAGGED         90    248
   TAGGED              2   1043&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;model-accuracy&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;Model Accuracy&lt;/h4&gt;
+&lt;div id=&#34;model-accuracy&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Model Accuracy&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;&amp;gt; #performance
 &amp;gt; accuracy_Test &amp;lt;- sum(diag(table_mat)) / sum(table_mat)
 &amp;gt; print(paste(&amp;#39;Accuracy for test is&amp;#39;, accuracy_Test))
@@ -453,7 +587,7 @@ For our case, we only focus on what we found:&lt;/p&gt;
 &lt;p&gt;For the tagged tweets, we had a &lt;strong&gt;false negative of 2 predictions&lt;/strong&gt; against a &lt;strong&gt;true positive of 1043 predictions&lt;/strong&gt;. This means that our model was able to correctly predict 1043 geotagged tweets from the test data. The accuracy of the model turned out pretty good, at an &lt;strong&gt;82 percent accuracy level&lt;/strong&gt;. The theoretical formula for the accuracy is the proportion of true positives and the true negatives divided by the sum of the confusion matrix.&lt;/p&gt;
 &lt;center&gt;
 &lt;figure&gt;
-&lt;img class=&#34;pure-u-1-2&#34;  src = &#34;https://github.com/CarlvinJerry/CarlvinJerry.github.io/blob/master/post/MyImages/math.jpg?raw=true&#34;&gt;
+&lt;img src=&#34;https://github.com/CarlvinJerry/sources/blob/master/static/MyImages/math.jpg?raw=true&#34; alt=&#34;Math&#34; /&gt;
 &lt;figcaption&gt;
 Figure 3: The formula
 &lt;/figcaption&gt;
@@ -461,7 +595,6 @@ Figure 3: The formula
 &lt;/center&gt;
 &lt;p&gt;For a better accuracy level, the model’s hyper-parameters can be tweaked to improve performance. Another option is implementing a random forest test.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;/div&gt;
 &lt;div id=&#34;conclusion-and-recommendation&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;4. Conclusion and Recommendation&lt;/h4&gt;
 &lt;p&gt;With our decision tree model, we were able to attain a high level of accuracy for a model that test whether users with &lt;strong&gt;tweets containing characters equal to or above 122&lt;/strong&gt; are likely to geotag their tweets. Our &lt;strong&gt;nudge&lt;/strong&gt; in this case is the number of characters in a tweet and precisely, &lt;strong&gt;124 or more&lt;/strong&gt;. Our recommendation therefore would be to encourage users to tweet longer or engage them in trending topics that require one to write more, for example a TT like # MyLifeHistoryInANutshell…-in the hope that a user will eventually geotag their tweet.&lt;/p&gt;
@@ -470,8 +603,9 @@ Figure 3: The formula
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;references&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;References&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;References&lt;/h1&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.businessballs.com/improving-workplace-performance/nudge-theory/&#34;&gt;Business balls official website&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Thaler, R.H., Sunstein, C.R., and Balz, J.P. Choice Architecture. SSRN Electronic Journal (2010), 1–18; &lt;a href=&#34;https://ssrn.com/abstract=1583509&#34; class=&#34;uri&#34;&gt;https://ssrn.com/abstract=1583509&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -483,15 +617,14 @@ Figure 3: The formula
 &lt;center&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Data Mining In R</title>
-      <link>https://beyondrawdata.rbind.io/post/data-mining/2019-01-25-r-data-mining-rmd/</link>
+      <link>/post/data-mining/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://beyondrawdata.rbind.io/post/data-mining/2019-01-25-r-data-mining-rmd/</guid>
+      <guid>/post/data-mining/</guid>
       <description>
 
 
@@ -516,9 +649,8 @@ Figure 3: The formula
 &lt;p&gt;To create a twitter app we can use for fetching metadata, we first need to have a Twitter account. We then need to go to the &lt;strong&gt;twitter dev site&lt;/strong&gt; &lt;a href=&#34;https://developer.twitter.com/&#34; class=&#34;uri&#34;&gt;https://developer.twitter.com/&lt;/a&gt; and log in with our user account.
 On the top right corner should be a drop down menu next to your username, go to APPS. At this point if you are doing this for the first time your Apps section should be blank. Click on “Create an app” to… create an app.&lt;/p&gt;
 &lt;center&gt;
-&lt;img src=&#34;apps.PNG&#34; alt=&#34;png&#34; /&gt;
+&lt;img src=&#34;https://github.com/CarlvinJerry/sources/blob/master/static/MyImages/apps.PNG?raw=true&#34; alt=&#34;create app&#34; /&gt;
 &lt;/center&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;We then have to fill in the form below appropriately. Here is a breakdown of what’s required:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Name:&lt;/strong&gt;
@@ -532,20 +664,20 @@ I would ignore the Callback URL field. If you are allowing users to log into you
 &lt;/ul&gt;
 &lt;center&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;apps2.PNG&#34; alt=&#34;png&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;png&lt;/p&gt;
+&lt;img src=&#34;https://github.com/CarlvinJerry/sources/blob/master/static/MyImages/apps2.PNG?raw=true&#34; alt=&#34;App details&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;App details&lt;/p&gt;
 &lt;/div&gt;
 &lt;/center&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;The remaining fields should be quite straight forward but must be filled. Click “Create” once done and there you have your first twitter app.
 On your app is a menu with &lt;strong&gt;Keys and tokens&lt;/strong&gt;. These are the most important components since we will need them to access data from the APIs.Generate both consumer and access tokens (if not readily available) and take note of them. &lt;strong&gt;NB:&lt;/strong&gt; &lt;strong&gt;These keys are meant for your eyes only!&lt;/strong&gt;&lt;/p&gt;
 &lt;center&gt;
-&lt;img src=&#34;keys.PNG&#34; alt=&#34;png&#34; /&gt;
+&lt;img src=&#34;https://github.com/CarlvinJerry/sources/blob/master/static/MyImages/keys.PNG?raw=true&#34; alt=&#34;Keys&#34; /&gt;
 &lt;/center&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;The final bit of setting up our twitter app is granting access permissions. We will mostly do fine with the &lt;strong&gt;read-only&lt;/strong&gt; if all we need is to fetch data but it can always be changed later.&lt;/p&gt;
 &lt;center&gt;
-&lt;img src=&#34;permisions.png&#34; alt=&#34;png&#34; /&gt;
+&lt;img src=&#34;https://github.com/CarlvinJerry/sources/blob/master/static/MyImages/permisions.PNG?raw=true&#34; alt=&#34;Permisions&#34; /&gt;
 &lt;/center&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;Now we can move on to the next step where we set up &lt;strong&gt;R&lt;/strong&gt; to query data from Twitter.&lt;/p&gt;
@@ -615,10 +747,7 @@ save(UKenyatta_Tweets, file=&amp;quot;UKenyatta_Tweets.RData&amp;quot;)
 
 # You can then access them later at will...
 # load(&amp;quot;UKenyatta_Tweets.RData&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You can now manipulate your data and see what you find out.&lt;/p&gt;
-&lt;center&gt;
-&lt;img src=&#34;https://media.giphy.com/media/ZtMkorgeyRu5q/giphy.gif&#34; alt=&#34;Happy crunching!!&#34; /&gt;
-&lt;/center&gt;
+&lt;p&gt;You can now manipulate your data and see what you find out…&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;center&gt;
 &lt;img src=&#34;https://fontmeme.com/permalink/190129/8b378e9ce35b7a28dd150c4f1d656807.png&#34; /&gt;
@@ -630,9 +759,9 @@ save(UKenyatta_Tweets, file=&amp;quot;UKenyatta_Tweets.RData&amp;quot;)
     
     <item>
       <title>Academic: the website builder for Hugo</title>
-      <link>https://beyondrawdata.rbind.io/post/getting-started/</link>
+      <link>/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://beyondrawdata.rbind.io/post/getting-started/</guid>
+      <guid>/post/getting-started/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;

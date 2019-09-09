@@ -2,29 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CARLVIN | BEYOND RAW DATA</title>
-    <link>https://beyondrawdata.rbind.io/</link>
-      <atom:link href="https://beyondrawdata.rbind.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>CARLVIN | BEYOND RAW DATA</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Carlvin M, 2019</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://beyondrawdata.rbind.io/img/Rplot</url>
+      <url>/img/Rplot</url>
       <title>CARLVIN | BEYOND RAW DATA</title>
-      <link>https://beyondrawdata.rbind.io/</link>
+      <link>/</link>
     </image>
     
     <item>
       <title>Slides</title>
-      <link>https://beyondrawdata.rbind.io/slides/</link>
+      <link>/slides/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://beyondrawdata.rbind.io/slides/</guid>
+      <guid>/slides/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Terms</title>
+      <link>/terms/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/terms/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Projects</title>
-      <link>https://beyondrawdata.rbind.io/project/</link>
+      <link>/project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://beyondrawdata.rbind.io/project/</guid>
+      <guid>/project/</guid>
       <description></description>
     </item>
     
@@ -38,33 +56,33 @@
     
     <item>
       <title>Courses</title>
-      <link>https://beyondrawdata.rbind.io/courses/</link>
+      <link>/courses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://beyondrawdata.rbind.io/courses/</guid>
+      <guid>/courses/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>https://beyondrawdata.rbind.io/post/</link>
+      <link>/post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://beyondrawdata.rbind.io/post/</guid>
+      <guid>/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>https://beyondrawdata.rbind.io/publication/</link>
+      <link>/publication/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://beyondrawdata.rbind.io/publication/</guid>
+      <guid>/publication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://beyondrawdata.rbind.io/talk/</link>
+      <link>/talk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://beyondrawdata.rbind.io/talk/</guid>
+      <guid>/talk/</guid>
       <description></description>
     </item>
     
