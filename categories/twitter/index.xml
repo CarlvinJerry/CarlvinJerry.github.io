@@ -1,32 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | CARLVIN | BEYOND RAW DATA</title>
-    <link>https://beyondrawdata.rbind.io/project/</link>
-      <atom:link href="https://beyondrawdata.rbind.io/project/index.xml" rel="self" type="application/rss+xml" />
-    <description>Projects</description>
+    <title>Twitter | CARLVIN | BEYOND RAW DATA</title>
+    <link>https://beyondrawdata.rbind.io/categories/twitter/</link>
+      <atom:link href="https://beyondrawdata.rbind.io/categories/twitter/index.xml" rel="self" type="application/rss+xml" />
+    <description>Twitter</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Carlvin M, 2019</copyright><lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://beyondrawdata.rbind.io/img/Rplot.png</url>
-      <title>Projects</title>
-      <link>https://beyondrawdata.rbind.io/project/</link>
+      <title>Twitter</title>
+      <link>https://beyondrawdata.rbind.io/categories/twitter/</link>
     </image>
-    
-    <item>
-      <title>Handy Shiny Apps</title>
-      <link>https://beyondrawdata.rbind.io/project/shiny-apps/</link>
-      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://beyondrawdata.rbind.io/project/shiny-apps/</guid>
-      <description>
-
-
-&lt;div id=&#34;motivation&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Motivation&lt;/h1&gt;
-&lt;p&gt;This project contains links to my developed shiny apps you might find helpful…For every new interesting idea I have I’ll build an app. Some might be basic shiny, others might be complex shiny, depending on how important I think they are. Let me know what you think,suggestions for improvements and new apps are welcome.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; &lt;a href=&#34;https://carlvinjerry3.shinyapps.io/AreWeThereYet1n2/&#34;&gt;Live time progress&lt;/a&gt; A live time visualizing app with a stop watch for board games hosted in &lt;a href=&#34;https://www.shinyapps.io/&#34;&gt;ShinyApp.io&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
     
     <item>
       <title>Tidy Tuesday</title>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R | CARLVIN | BEYOND RAW DATA</title>
-    <link>/categories/r/</link>
-      <atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://beyondrawdata.rbind.io/categories/r/</link>
+      <atom:link href="https://beyondrawdata.rbind.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Carlvin M, 2019</copyright><lastBuildDate>Sun, 04 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/Rplot.png</url>
+      <url>https://beyondrawdata.rbind.io/img/Rplot.png</url>
       <title>R</title>
-      <link>/categories/r/</link>
+      <link>https://beyondrawdata.rbind.io/categories/r/</link>
     </image>
     
     <item>
       <title>Exploratory Data Analysis</title>
-      <link>/post/exploratory-data-analysis/</link>
+      <link>https://beyondrawdata.rbind.io/post/exploratory-data-analysis/</link>
       <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/post/exploratory-data-analysis/</guid>
+      <guid>https://beyondrawdata.rbind.io/post/exploratory-data-analysis/</guid>
       <description>
 
 
@@ -297,7 +297,7 @@ plotDen &amp;lt;- function(data_in, i){
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Plotting categorical values----
 #Bar plots
 doPlots(mobileBanking.Df_cat, fun = plotHist, ii = 1:4, ncol = 2)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/exploratory-data-analysis/index_files/figure-html/barplots1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://beyondrawdata.rbind.io/post/exploratory-data-analysis/index_files/figure-html/barplots1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;gender&#34; class=&#34;section level4&#34;&gt;
@@ -315,7 +315,7 @@ doPlots(mobileBanking.Df_cat, fun = plotHist, ii = 1:4, ncol = 2)&lt;/code&gt;&l
 &lt;p&gt;All the respondents had bank accounts. A very small number had their business bank accounts linked to mobile banking. Majority had linked their current accounts probably due to the convenience that comes with mobile banking like frequent or timeless withdrawals.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/exploratory-data-analysis/index_files/figure-html/barplots2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://beyondrawdata.rbind.io/post/exploratory-data-analysis/index_files/figure-html/barplots2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;uses-of-mobile-banking-importance-and-benefits&#34; class=&#34;section level4&#34;&gt;
@@ -324,7 +324,7 @@ doPlots(mobileBanking.Df_cat, fun = plotHist, ii = 1:4, ncol = 2)&lt;/code&gt;&l
 &lt;p&gt;Most respondents found mobile banking services &lt;strong&gt;very important&lt;/strong&gt;, probably owing to the affordable cost charges and good service which could mean less usability issues when using the services.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/exploratory-data-analysis/index_files/figure-html/barplots3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://beyondrawdata.rbind.io/post/exploratory-data-analysis/index_files/figure-html/barplots3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;bank-visits&#34; class=&#34;section level4&#34;&gt;
@@ -358,9 +358,9 @@ doPlots(mobileBanking.Df_cat, fun = plotHist, ii = 1:4, ncol = 2)&lt;/code&gt;&l
     
     <item>
       <title>Twitter Data Mining In R</title>
-      <link>/post/data-mining/</link>
+      <link>https://beyondrawdata.rbind.io/post/data-mining/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/post/data-mining/</guid>
+      <guid>https://beyondrawdata.rbind.io/post/data-mining/</guid>
       <description>
 
 
