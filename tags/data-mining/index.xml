@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Mining | CARLVIN | BEYOND RAW DATA</title>
-    <link>https://beyondrawdata.rbind.io/tags/data-mining/</link>
-      <atom:link href="https://beyondrawdata.rbind.io/tags/data-mining/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/data-mining/</link>
+      <atom:link href="/tags/data-mining/index.xml" rel="self" type="application/rss+xml" />
     <description>Data Mining</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Carlvin M, 2019</copyright><lastBuildDate>Sun, 17 Feb 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://beyondrawdata.rbind.io/img/Rplot.png</url>
+      <url>/img/Rplot.png</url>
       <title>Data Mining</title>
-      <link>https://beyondrawdata.rbind.io/tags/data-mining/</link>
+      <link>/tags/data-mining/</link>
     </image>
     
     <item>
       <title>Digital Nudging</title>
-      <link>https://beyondrawdata.rbind.io/post/digital-nudging/</link>
+      <link>/post/digital-nudging/</link>
       <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://beyondrawdata.rbind.io/post/digital-nudging/</guid>
+      <guid>/post/digital-nudging/</guid>
       <description>
 
 
@@ -278,9 +278,9 @@ Figure 3: The formula
     
     <item>
       <title>Twitter Data Mining In R</title>
-      <link>https://beyondrawdata.rbind.io/post/data-mining/</link>
+      <link>/post/data-mining/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://beyondrawdata.rbind.io/post/data-mining/</guid>
+      <guid>/post/data-mining/</guid>
       <description>
 
 
