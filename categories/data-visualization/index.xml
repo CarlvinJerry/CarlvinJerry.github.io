@@ -111,16 +111,16 @@ Highlighting top 1000 nukes by yield, Bravo yielded the most megatons:15 followe
 &lt;/blockquote&gt;
 &lt;div id=&#34;introduction&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;INTRODUCTION&lt;/h3&gt;
-&lt;p&gt;If you are familiar with data analysis then I’m certain that you fully relate to the above statement. After all, it would be pointless to play around with lots of data just for the love of it.&lt;/p&gt;
-&lt;p&gt;Data is gold, and the more you have the better off you are. However, raw unprocessed data is of no use unless you manipulate and gain insights from it. Before embarking on statistical modelling and visualization of your data, it is very important to first have an understanding of the data itself. Exploratory Data Analysis (&lt;strong&gt;EDA&lt;/strong&gt;) aids in visualization, transformation, and generally cleaning or remodeling data before diving deep into statistics and predictive modelling.&lt;/p&gt;
-&lt;p&gt;There are not set rules to be followed when performing EDA. As a data reparation phase, one is allowed to decide what suits them best in order to gain an understanding of their data. However, there are two most important questions one should seek to answer while studying their data:&lt;/p&gt;
+&lt;p&gt;If you are familiar with data analysis then I’m certain that you fully relate to the above statement. After all, it would be pointless to play around with lots of data just for the love of it, sometimes not but you get the point.&lt;/p&gt;
+&lt;p&gt;Data is gold, and the more you have the better off you are. However, raw unprocessed data is of no use unless you manipulate and gain insights from it. Before embarking on say statistical modelling and visualization of your data, it is very important to first have an understanding of the data itself. Exploratory Data Analysis (&lt;strong&gt;EDA&lt;/strong&gt;) aids in visualization, transformation, and generally cleaning or remodeling data before diving deep into information extraction.&lt;/p&gt;
+&lt;p&gt;There are no set rules to be followed when performing EDA. As a data preparation phase, one is allowed to decide what suits them best in order to gain an understanding of their data. However, there are two most important questions one should seek to answer while studying their data:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Is there variation within my variables?&lt;/li&gt;
 &lt;li&gt;Is there any correlation between my variables?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;That being said, EDA involves the following checks among others:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Descriptive Statistics&lt;/strong&gt; - Give a summarized understanding of the data, usually as measures of central tendency and variability.
+&lt;li&gt;&lt;strong&gt;Descriptive Statistics&lt;/strong&gt; - Gives a summarized understanding of the data, usually as measures of central tendency and variability.
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Mean&lt;/strong&gt; - Arithmetic average&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Median&lt;/strong&gt; - middle value&lt;/li&gt;
@@ -140,7 +140,7 @@ Highlighting top 1000 nukes by yield, Bravo yielded the most megatons:15 followe
 &lt;li&gt;&lt;strong&gt;Scatter plots&lt;/strong&gt; - a graphical display of variables plotted on the x and y axes.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In this post, we will perform EDA on a sample data set containing responses on mobile banking survey in Kenya. If you would like to follow along with the same data, you can download it &lt;a href=&#34;https://github.com/CarlvinJerry/sources/blob/master/data/Mobile%20Banking%20in%20Kenya.csv&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In this post, we will perform EDA on a sample data set containing responses to a mobile banking survey in Kenya. If you would like to follow along with the same data, you can download it &lt;a href=&#34;https://github.com/CarlvinJerry/sources/blob/master/data/Mobile%20Banking%20in%20Kenya.csv&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;data-importation&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Data Importation&lt;/h1&gt;
@@ -150,7 +150,7 @@ mobileBanking.Df &amp;lt;- read.csv(&amp;quot;J://Personalprojects//Blogsite//da
 mobileBanking.Df &amp;lt;- mobileBanking.Df[,-1] #Remove the number column which is Irrelevant&lt;/code&gt;&lt;/pre&gt;
 &lt;div id=&#34;data-inspection&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;1.0.0 Data Inspection&lt;/h4&gt;
-&lt;p&gt;Once our sample data set loaded, we can check for features present in it. We first need to load all the libraries needed for data analysis and manipulation.&lt;/p&gt;
+&lt;p&gt;Once our sample data set is loaded, we check for features present. We first need to load all the libraries needed for data analysis and manipulation.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt; #Load required packages or install if not present.----
 load.libraries &amp;lt;- c(&amp;#39;data.table&amp;#39;,&amp;#39;tidyverse&amp;#39;,&amp;#39;gridExtra&amp;#39;, &amp;#39;corrplot&amp;#39;, &amp;#39;GGally&amp;#39;, &amp;#39;ggplot2&amp;#39;, &amp;#39;e1071&amp;#39;, &amp;#39;dplyr&amp;#39;)
 install.lib &amp;lt;- load.libraries[!load.libraries %in% installed.packages()]
@@ -162,7 +162,7 @@ sapply(load.libraries, require, character = TRUE)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The function above takes in a list of required libraries, checks if they are already installed and installs them if not. It then loads all the packages one at a go.&lt;/p&gt;
 &lt;/center&gt;
 &lt;figure&gt;
-&lt;img src=&#34;packages.png&#34; alt=&#34;packages&#34; /&gt;
+&lt;img src=&#34;packages.png&#34; title=&#34;fig:&#34; alt=&#34;packages&#34; /&gt;
 &lt;figcaption&gt;
 Figure 1: Loaded packages
 &lt;/figcaption&gt;
@@ -173,7 +173,7 @@ Figure 1: Loaded packages
 &lt;h4&gt;1.1.0 Observing the data structure&lt;/h4&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dim(mobileBanking.Df)
 ## [1] 43 11&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The data set has 43 rows with 11 Variables. We therefore explore the data types present in each variable column.&lt;/p&gt;
+&lt;p&gt;The data set has 43 rows with 11 Variables. We therefore explore the data types of each variable/column.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Check Categorical VS Numeric Characters----
 cat_vars &amp;lt;- names(mobileBanking.Df)[which(sapply(mobileBanking.Df, is.character))]
 cat_vars
@@ -187,7 +187,7 @@ cat_vars
 numeric_vars &amp;lt;- names(mobileBanking.Df)[which(sapply(mobileBanking.Df, is.numeric))]
 numeric_vars
 ## character(0)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;To identify the data types, we can check for numeric and categorical variables present in the data. In our case, all the variables in our data set are categorical variables. We will therefore explore the data from a categorical approach rather than numeric. There exists different visualization methods for different data types. Now that we have established the general structure of the data, we can check if there are any missing values within the variables.&lt;/p&gt;
+&lt;p&gt;To identify the data types, we can check for numeric and categorical variables present in the data. In our case, all the variables in our data set are categorical. We will therefore explore the data from a categorical approach rather than numeric. There exists different visualization methods for different data types. Now that we have established the general structure of the data, we can check for missing values, &lt;code&gt;NAs&lt;/code&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Checking data for any missing values
 colSums(sapply(mobileBanking.Df, is.na))
 ##                       Gender                    Age.Range 
@@ -202,7 +202,7 @@ colSums(sapply(mobileBanking.Df, is.na))
 ##                            0                            0 
 ##                 Satisfaction 
 ##                            0&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;We have no NULL values in our data. We can therefore proceed to analysis without worrying about missing values. In a case whereby there exists null values, one can choose whether to replace the nulls with the most appropriate values or remove the rows with nulls from the data. This is important for later stages of analysis that include data modelling, like Machine Learning.&lt;/p&gt;
+&lt;p&gt;We have no columns with missing values in our data. We can therefore proceed to analysis without worrying about missing values. In a case whereby there exists NA values, one can choose whether to replace the nulls with the most appropriate values or remove the rows with nulls from the data. This is important for later stages of analysis that include data modelling, like Machine Learning.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -227,7 +227,7 @@ summary(mobileBanking.Df)
 ##  Class :character   Class :character  
 ##  Mode  :character   Mode  :character&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;The &lt;strong&gt;&lt;em&gt;Summary()&lt;/em&gt;&lt;/strong&gt; function comes in handy at summarizing data. I our case, there is no statistical measures since all our variables are categorical. Important to note that the function also specifies the specific data types. There are more than enough ways to inspect data structures in R.&lt;/p&gt;
+&lt;p&gt;The base R &lt;code&gt;Summary()&lt;/code&gt; function comes in handy at summarizing data. In our case, there is no statistical measures since all our variables are categorical. Note that the function also specifies the specific data types. There are more than enough ways to inspect data structures in R.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -406,7 +406,7 @@ doPlots(mobileBanking.Df_cat, fun = plotHist, ii = 1:4, ncol = 2)&lt;/code&gt;&l
 &lt;/div&gt;
 &lt;div id=&#34;uses-of-mobile-banking-importance-and-benefits&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;Uses Of Mobile Banking, Importance And Benefits&lt;/h4&gt;
-&lt;p&gt;Most respondents use mobile banking services for making payments. this is followed by cash withdrawals. Airtime purchase and money transfer happen to be the least uses for the service. This could be because they are easily accessible needs unlike cash withdrawal and making payments in terms of mobility convenience.&lt;/p&gt;
+&lt;p&gt;Most respondents use mobile banking services for making payments. This is followed by cash withdrawals. Airtime purchase and money transfer happen to be the least uses for the service. This could be because they are easily accessible needs unlike cash withdrawal and making payments in terms of mobility convenience.&lt;/p&gt;
 &lt;p&gt;Most respondents found mobile banking services &lt;strong&gt;very important&lt;/strong&gt;, probably owing to the affordable cost charges and good service which could mean less usability issues when using the services.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
