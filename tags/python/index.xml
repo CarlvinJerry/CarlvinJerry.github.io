@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python | CARLVIN | BEYOND RAW DATA</title>
+    <title>Python | C A R L V I N || BEYOND RAW DATA</title>
     <link>/tags/python/</link>
       <atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Carlvin M, 2019</copyright><lastBuildDate>Sun, 17 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Carlvin .M., 2020</copyright><lastBuildDate>Sun, 17 Feb 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/Rplot.png</url>
       <title>Python</title>

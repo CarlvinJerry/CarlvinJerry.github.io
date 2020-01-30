@@ -1,9 +1,9 @@
 {
-  "name": "CARLVIN | BEYOND RAW DATA",
-  "short_name": "CARLVIN | BEYOND RAW DATA",
+  "name": "C A R L V I N || BEYOND RAW DATA",
+  "short_name": "C A R L V I N || BEYOND RAW DATA",
   "lang": "en-us",
-  "theme_color": "#C51E1E",
-  "background_color": "#C51E1E",
+  "theme_color": "#328cc1",
+  "background_color": "#328cc1",
   "icons": [{
     "src": "img/icon-192.png",
     "sizes": "192x192",

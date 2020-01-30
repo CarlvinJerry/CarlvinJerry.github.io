@@ -1,21 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Demo | CARLVIN | BEYOND RAW DATA</title>
+    <title>Demo on C A R L V I N || BEYOND RAW DATA</title>
     <link>/categories/demo/</link>
-      <atom:link href="/categories/demo/index.xml" rel="self" type="application/rss+xml" />
-    <description>Demo</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Carlvin M, 2019</copyright><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>/img/Rplot.png</url>
-      <title>Demo</title>
-      <link>/categories/demo/</link>
-    </image>
+    <description>Recent content in Demo on C A R L V I N || BEYOND RAW DATA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Carlvin .M., {year}</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/demo/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Academic: the website builder for Hugo</title>
       <link>/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
       <guid>/post/getting-started/</guid>
       <description>
 

@@ -1,21 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R | CARLVIN | BEYOND RAW DATA</title>
+    <title>R on C A R L V I N || BEYOND RAW DATA</title>
     <link>/categories/r/</link>
-      <atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
-    <description>R</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Carlvin M, 2019</copyright><lastBuildDate>Sun, 04 Aug 2019 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>/img/Rplot.png</url>
-      <title>R</title>
-      <link>/categories/r/</link>
-    </image>
+    <description>Recent content in R on C A R L V I N || BEYOND RAW DATA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Carlvin .M., {year}</copyright>
+    <lastBuildDate>Sun, 04 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Exploratory Data Analysis</title>
       <link>/post/exploratory-data-analysis/</link>
       <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
+      
       <guid>/post/exploratory-data-analysis/</guid>
       <description>
 
@@ -360,6 +361,7 @@ doPlots(mobileBanking.Df_cat, fun = plotHist, ii = 1:4, ncol = 2)&lt;/code&gt;&l
       <title>Twitter Data Mining In R</title>
       <link>/post/data-mining/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
       <guid>/post/data-mining/</guid>
       <description>
 
