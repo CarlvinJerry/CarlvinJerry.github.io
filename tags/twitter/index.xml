@@ -23,7 +23,16 @@
 
 &lt;div class=&#34;flex-container&#34;&gt;
 &lt;div&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-theme=&#34;dark&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+First &lt;a href=&#34;https://twitter.com/hashtag/TidyTuesday?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TidyTuesday&lt;/a&gt; contribution for the year, still have a lot to catch up on clearly. I made a leaflet map from a blog post on &lt;a href=&#34;https://t.co/wTAS19lPLv&#34;&gt;https://t.co/wTAS19lPLv&lt;/a&gt; . Stuck at sharing the interactive html file for now. Code: &lt;a href=&#34;https://t.co/2inpMWZfuB&#34;&gt;https://t.co/2inpMWZfuB&lt;/a&gt; &lt;a href=&#34;https://t.co/e6SIl02Z8M&#34;&gt;pic.twitter.com/e6SIl02Z8M&lt;/a&gt;
+&lt;/p&gt;
+— Professional Griefer (&lt;span class=&#34;citation&#34;&gt;@PipeFunction&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/PipeFunction/status/1222857742408474626?ref_src=twsrc%5Etfw&#34;&gt;January 30, 2020&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-theme=&#34;dark&#34;&gt;
 &lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
 Perfect timing for &lt;a href=&#34;https://twitter.com/dataandme?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@dataandme&lt;/span&gt;&lt;/a&gt;&#39;s tweet…I decided to use {reactable} for this week&#39;s &lt;a href=&#34;https://twitter.com/hashtag/TidyTuesday?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TidyTuesday&lt;/a&gt; challenge. Showing average bird rating against number of votes. Still stuck at embedding the bird images though, to be continued… &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;br&gt;Code: &lt;a href=&#34;https://t.co/FlFyoZKSa8&#34;&gt;https://t.co/FlFyoZKSa8&lt;/a&gt; &lt;a href=&#34;https://t.co/Dsg86QBwqM&#34;&gt;pic.twitter.com/Dsg86QBwqM&lt;/a&gt;
 &lt;/p&gt;
