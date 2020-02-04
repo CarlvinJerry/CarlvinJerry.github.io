@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Mining on C A R L V I N  ||  BEYOND RAW DATA</title>
-    <link>/categories/data-mining/</link>
+    <link>https://beyondrawdata.rbind.io/categories/data-mining/</link>
     <description>Recent content in Data Mining on C A R L V I N  ||  BEYOND RAW DATA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Carlvin .M., {year}</copyright>
     <lastBuildDate>Sun, 17 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/data-mining/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://beyondrawdata.rbind.io/categories/data-mining/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Digital Nudging</title>
-      <link>/post/digital-nudging/</link>
+      <link>https://beyondrawdata.rbind.io/post/digital-nudging/</link>
       <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/digital-nudging/</guid>
+      <guid>https://beyondrawdata.rbind.io/post/digital-nudging/</guid>
       <description>
 
 
@@ -274,10 +274,10 @@ For our case, we only focus on what we found:&lt;/p&gt;
     
     <item>
       <title>Twitter Data Mining In R</title>
-      <link>/post/data-mining/</link>
+      <link>https://beyondrawdata.rbind.io/post/data-mining/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/data-mining/</guid>
+      <guid>https://beyondrawdata.rbind.io/post/data-mining/</guid>
       <description>
 
 
