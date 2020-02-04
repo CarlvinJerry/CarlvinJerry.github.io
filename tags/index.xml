@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags | C A R L V I N || BEYOND RAW DATA</title>
+    <title>Tags | C A R L V I N  ||  BEYOND RAW DATA</title>
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
@@ -17,6 +17,14 @@
       <link>/tags/data-visualization/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       <guid>/tags/data-visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Viz</title>
+      <link>/tags/data-viz/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/data-viz/</guid>
       <description></description>
     </item>
     

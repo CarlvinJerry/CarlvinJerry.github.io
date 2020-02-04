@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Viz | C A R L V I N  ||  BEYOND RAW DATA</title>
+    <link>/tags/data-viz/</link>
+      <atom:link href="/tags/data-viz/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data Viz</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Carlvin .M., 2020</copyright><lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/Rplot.png</url>
+      <title>Data Viz</title>
+      <link>/tags/data-viz/</link>
+    </image>
+    
+    <item>
+      <title>Tidy Tuesday</title>
+      <link>/project/tidy-tuesday/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/project/tidy-tuesday/</guid>
+      <description>
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;custom.css&#34; type=&#34;text/css&#34; /&gt;
+
+
+&lt;div class=&#34;flex-container&#34;&gt;
+&lt;div&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-theme=&#34;dark&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+First &lt;a href=&#34;https://twitter.com/hashtag/TidyTuesday?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TidyTuesday&lt;/a&gt; contribution for the year, still have a lot to catch up on clearly. I made a leaflet map from a blog post on &lt;a href=&#34;https://t.co/wTAS19lPLv&#34;&gt;https://t.co/wTAS19lPLv&lt;/a&gt; . Stuck at sharing the interactive html file for now. Code: &lt;a href=&#34;https://t.co/2inpMWZfuB&#34;&gt;https://t.co/2inpMWZfuB&lt;/a&gt; &lt;a href=&#34;https://t.co/e6SIl02Z8M&#34;&gt;pic.twitter.com/e6SIl02Z8M&lt;/a&gt;
+&lt;/p&gt;
+— Professional Griefer (&lt;span class=&#34;citation&#34;&gt;@PipeFunction&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/PipeFunction/status/1222857742408474626?ref_src=twsrc%5Etfw&#34;&gt;January 30, 2020&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-theme=&#34;dark&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Perfect timing for &lt;a href=&#34;https://twitter.com/dataandme?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@dataandme&lt;/span&gt;&lt;/a&gt;&#39;s tweet…I decided to use {reactable} for this week&#39;s &lt;a href=&#34;https://twitter.com/hashtag/TidyTuesday?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TidyTuesday&lt;/a&gt; challenge. Showing average bird rating against number of votes. Still stuck at embedding the bird images though, to be continued… &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;br&gt;Code: &lt;a href=&#34;https://t.co/FlFyoZKSa8&#34;&gt;https://t.co/FlFyoZKSa8&lt;/a&gt; &lt;a href=&#34;https://t.co/Dsg86QBwqM&#34;&gt;pic.twitter.com/Dsg86QBwqM&lt;/a&gt;
+&lt;/p&gt;
+— Professional Griefer (&lt;span class=&#34;citation&#34;&gt;@PipeFunction&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/PipeFunction/status/1197087644557164544?ref_src=twsrc%5Etfw&#34;&gt;November 20, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+My contribution to this week&#39;s &lt;a href=&#34;https://twitter.com/hashtag/TidyTuesday?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TidyTuesday&lt;/a&gt; Grouped movies by quarter of the year they were released, Q4 movies have a slightly higher rating. Budgets don&#39;t always guarantee viewer success…Also, I just learnt I haven&#39;t watched Psychedelia yet &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/datavisualization?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#datavisualization&lt;/a&gt; &lt;a href=&#34;https://t.co/MT5NgkttW1&#34;&gt;pic.twitter.com/MT5NgkttW1&lt;/a&gt;
+&lt;/p&gt;
+— Professional Griefer (&lt;span class=&#34;citation&#34;&gt;@PipeFunction&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/PipeFunction/status/1186975384061001734?ref_src=twsrc%5Etfw&#34;&gt;October 23, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Tried out a Sankey plot for this week&#39;s &lt;a href=&#34;https://twitter.com/hashtag/TidyTuesday?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TidyTuesday&lt;/a&gt; data… Distribution of gender across age groups, body weight, and equipment used for Squat-Bench-Deadlift events. Code: &lt;a href=&#34;https://t.co/6HLl7z6wzp&#34;&gt;https://t.co/6HLl7z6wzp&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/dataviz?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#dataviz&lt;/a&gt; &lt;a href=&#34;https://t.co/5dcSGYHZ1H&#34;&gt;pic.twitter.com/5dcSGYHZ1H&lt;/a&gt;
+&lt;/p&gt;
+— Professional Griefer (&lt;span class=&#34;citation&#34;&gt;@PipeFunction&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/PipeFunction/status/1181992637877936128?ref_src=twsrc%5Etfw&#34;&gt;October 9, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Tried out a spaghetti plot for this weeks &lt;a href=&#34;https://twitter.com/hashtag/TidyTuesday?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TidyTuesday&lt;/a&gt; , reducing the unit_type to my own based on a few common features… Quick one, is it that there are very few accessible (they also started in the 50s-60s) parks with water bodies or guys just don&#39;t visit them? &lt;a href=&#34;https://t.co/yTmsplg41R&#34;&gt;pic.twitter.com/yTmsplg41R&lt;/a&gt;
+&lt;/p&gt;
+— Professional Griefer (&lt;span class=&#34;citation&#34;&gt;@PipeFunction&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/PipeFunction/status/1174070770261250054?ref_src=twsrc%5Etfw&#34;&gt;September 17, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+First of many contributions to &lt;a href=&#34;https://twitter.com/hashtag/TidyTuesday?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TidyTuesday&lt;/a&gt;. The US and USSR were responsible for over 80% of explosions. Random fact; After rejecting the CTB treaty in, Pakistan tests six nuclear weapons, 1998 in response to India’s tests. code:&lt;a href=&#34;https://t.co/nRM78MBSc1&#34;&gt;https://t.co/nRM78MBSc1&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/dataviz?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#dataviz&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/ggplot2?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#ggplot2&lt;/a&gt; &lt;a href=&#34;https://t.co/ZiXUzf7fZn&#34;&gt;pic.twitter.com/ZiXUzf7fZn&lt;/a&gt;
+&lt;/p&gt;
+— Professional Griefer (&lt;span class=&#34;citation&#34;&gt;@PipeFunction&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/PipeFunction/status/1163953126728224768?ref_src=twsrc%5Etfw&#34;&gt;August 20, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+An update based on &lt;a href=&#34;https://twitter.com/CedScherer?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@CedScherer&lt;/span&gt;&lt;/a&gt; &#39;s suggestion. Using the maximum value actually shows the true trend in percentage change while solving the overlaps issue. Mean skews the data hence not recommended…this plot here a better representation. &lt;a href=&#34;https://twitter.com/hashtag/TidyTuesday?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TidyTuesday&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/DataVisualization?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#DataVisualization&lt;/a&gt; &lt;a href=&#34;https://t.co/Nk4VqXG8TB&#34;&gt;pic.twitter.com/Nk4VqXG8TB&lt;/a&gt;
+&lt;/p&gt;
+— Professional Griefer (&lt;span class=&#34;citation&#34;&gt;@PipeFunction&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/PipeFunction/status/1169887753091219463?ref_src=twsrc%5Etfw&#34;&gt;September 6, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Moore&#39;s Law: Focused on Intel CPUs,% change in the avg no. of transistors yearly shows the exponential growth trend. However, the % change has been reducing over recent yrs. “It&#39;s the nature of exponential functions, they eventually hit a wall”- Moore (2005) &lt;a href=&#34;https://twitter.com/hashtag/TidyTuesday?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TidyTuesday&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://t.co/LngIYw9GtX&#34;&gt;pic.twitter.com/LngIYw9GtX&lt;/a&gt;
+&lt;/p&gt;
+— Professional Griefer (&lt;span class=&#34;citation&#34;&gt;@PipeFunction&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/PipeFunction/status/1169608479818113025?ref_src=twsrc%5Etfw&#34;&gt;September 5, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Highlighting top 1000 nukes by yield, Bravo yielded the most megatons:15 followed by Yankee: 13.5 mt , Romeo:11 mt , Mike:10.4 mt , Handley:10 mt . All were US&#39;s , mostly deployed in Bikini…apart from Hanley which was UK&#39;s &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/TidyTuesday?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TidyTuesday&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/dataviz?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#dataviz&lt;/a&gt; &lt;a href=&#34;https://t.co/c9KnQGaUiH&#34;&gt;pic.twitter.com/c9KnQGaUiH&lt;/a&gt;
+&lt;/p&gt;
+— Professional Griefer (&lt;span class=&#34;citation&#34;&gt;@PipeFunction&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/PipeFunction/status/1164234676208320513?ref_src=twsrc%5Etfw&#34;&gt;August 21, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Handy Shiny Apps</title>
+      <link>/project/shiny-apps/</link>
+      <pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/shiny-apps/</guid>
+      <description>
+
+
+&lt;div id=&#34;motivation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Motivation&lt;/h1&gt;
+&lt;p&gt;This project contains links to my developed shiny apps you might find helpful…For every new interesting idea I have I’ll build an app. Some might be basic shiny, others might be complex shiny, depending on how important I think they are. Let me know what you think,suggestions for improvements and new apps are welcome.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; &lt;a href=&#34;https://carlvinjerry3.shinyapps.io/AreWeThereYet1n2/&#34;&gt;Live time progress&lt;/a&gt; A live time visualizing app with a stop watch for board games hosted in &lt;a href=&#34;https://www.shinyapps.io/&#34;&gt;ShinyApp.io&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
