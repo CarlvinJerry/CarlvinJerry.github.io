@@ -3,212 +3,222 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/</loc>
+    <loc>/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/talk/example/</loc>
+    <loc>/talk/example/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/tags/data-visualization/</loc>
+    <loc>/categories/data-visualization/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/categories/data-visualization/</loc>
+    <loc>/tags/data-visualization/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/categories/data-viz/</loc>
+    <loc>/tags/data-viz/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/tags/data-viz/</loc>
+    <loc>/categories/data-viz/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/project/</loc>
+    <loc>/project/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/project/tidy-tuesday/</loc>
+    <loc>/project/tidy-tuesday/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/tags/twitter/</loc>
+    <loc>/tags/twitter/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/authors/admin/</loc>
+    <loc>/authors/admin/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/authors/</loc>
+    <loc>/authors/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/post/exploratory-data-analysis/</loc>
+    <loc>/post/exploratory-data-analysis/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/categories/r/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/tags/r/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/project/shiny-apps/</loc>
+    <loc>/project/shiny-apps/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/publication_types/3/</loc>
+    <loc>/publication_types/3/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/publication/preprint/</loc>
+    <loc>/publication/preprint/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/publication_types/</loc>
+    <loc>/publication_types/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/tags/source-themes/</loc>
+    <loc>/tags/source-themes/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/tags/data-mining/</loc>
+    <loc>/tags/data-mining/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/categories/data-mining/</loc>
+    <loc>/categories/data-mining/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/tags/decision-trees/</loc>
+    <loc>/tags/decision-trees/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/post/digital-nudging/</loc>
+    <loc>/post/digital-nudging/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/categories/machine-learning/</loc>
+    <loc>/categories/machine-learning/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/tags/python/</loc>
+    <loc>/tags/python/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/tags/regression/</loc>
+    <loc>/tags/regression/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/slides/</loc>
+    <loc>/slides/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/slides/example/</loc>
+    <loc>/slides/example/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/post/data-mining/</loc>
+    <loc>/post/data-mining/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/tags/academic/</loc>
+    <loc>/privacy/</loc>
+    <lastmod>2019-11-19T00:24:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/terms/</loc>
+    <lastmod>2019-11-19T00:24:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/academic/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/post/getting-started/</loc>
+    <loc>/post/getting-started/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/categories/demo/</loc>
+    <loc>/categories/demo/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/publication_types/2/</loc>
+    <loc>/publication_types/2/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/publication/journal-article/</loc>
+    <loc>/publication/journal-article/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/authors/robert-ford/</loc>
+    <loc>/authors/robert-ford/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/publication_types/1/</loc>
+    <loc>/publication_types/1/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/publication/conference-paper/</loc>
+    <loc>/publication/conference-paper/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/publication/</loc>
+    <loc>/publication/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://beyondrawdata.rbind.io/talk/</loc>
+    <loc>/talk/</loc>
     <lastmod>2020-02-04T09:46:21+03:00</lastmod>
   </url>
   

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Viz on C A R L V I N  ||  BEYOND RAW DATA</title>
-    <link>https://beyondrawdata.rbind.io/categories/data-viz/</link>
+    <link>/categories/data-viz/</link>
     <description>Recent content in Data Viz on C A R L V I N  ||  BEYOND RAW DATA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Carlvin .M., {year}</copyright>
     <lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://beyondrawdata.rbind.io/categories/data-viz/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/data-viz/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tidy Tuesday</title>
-      <link>https://beyondrawdata.rbind.io/project/tidy-tuesday/</link>
+      <link>/project/tidy-tuesday/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://beyondrawdata.rbind.io/project/tidy-tuesday/</guid>
+      <guid>/project/tidy-tuesday/</guid>
       <description>
   &lt;link rel=&#34;stylesheet&#34; href=&#34;custom.css&#34; type=&#34;text/css&#34; /&gt;
 
@@ -110,10 +110,10 @@ Highlighting top 1000 nukes by yield, Bravo yielded the most megatons:15 followe
     
     <item>
       <title>Handy Shiny Apps</title>
-      <link>https://beyondrawdata.rbind.io/project/shiny-apps/</link>
+      <link>/project/shiny-apps/</link>
       <pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://beyondrawdata.rbind.io/project/shiny-apps/</guid>
+      <guid>/project/shiny-apps/</guid>
       <description>
 
 

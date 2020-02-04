@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | C A R L V I N  ||  BEYOND RAW DATA</title>
-    <link>https://beyondrawdata.rbind.io/project/</link>
-      <atom:link href="https://beyondrawdata.rbind.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Carlvin .M., 2020</copyright><lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://beyondrawdata.rbind.io/img/Rplot.png</url>
+      <url>/img/Rplot.png</url>
       <title>Projects</title>
-      <link>https://beyondrawdata.rbind.io/project/</link>
+      <link>/project/</link>
     </image>
     
     <item>
       <title>Tidy Tuesday</title>
-      <link>https://beyondrawdata.rbind.io/project/tidy-tuesday/</link>
+      <link>/project/tidy-tuesday/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://beyondrawdata.rbind.io/project/tidy-tuesday/</guid>
+      <guid>/project/tidy-tuesday/</guid>
       <description>
   &lt;link rel=&#34;stylesheet&#34; href=&#34;custom.css&#34; type=&#34;text/css&#34; /&gt;
 
@@ -109,9 +109,9 @@ Highlighting top 1000 nukes by yield, Bravo yielded the most megatons:15 followe
     
     <item>
       <title>Handy Shiny Apps</title>
-      <link>https://beyondrawdata.rbind.io/project/shiny-apps/</link>
+      <link>/project/shiny-apps/</link>
       <pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://beyondrawdata.rbind.io/project/shiny-apps/</guid>
+      <guid>/project/shiny-apps/</guid>
       <description>
 
 

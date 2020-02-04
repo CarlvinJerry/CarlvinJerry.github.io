@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | C A R L V I N  ||  BEYOND RAW DATA</title>
-    <link>https://beyondrawdata.rbind.io/authors/</link>
-      <atom:link href="https://beyondrawdata.rbind.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Carlvin .M., 2020</copyright><lastBuildDate>Sun, 04 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://beyondrawdata.rbind.io/img/Rplot.png</url>
+      <url>/img/Rplot.png</url>
       <title>Authors</title>
-      <link>https://beyondrawdata.rbind.io/authors/</link>
+      <link>/authors/</link>
     </image>
     
     <item>
       <title></title>
-      <link>https://beyondrawdata.rbind.io/authors/admin/</link>
+      <link>/authors/admin/</link>
       <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://beyondrawdata.rbind.io/authors/admin/</guid>
+      <guid>/authors/admin/</guid>
       <description>&lt;p&gt;Carlvin is data science enthusiast mainly interested in analytics &amp;amp; visualization, financial modelling and predictive analytics in machine learning.&lt;/p&gt;
 &lt;p&gt;As a quant analyst, he develops and tests existing to new models for financial markets analysis and reporting. Au courant with the vastly growing technology space and it&amp;rsquo;s use in the financial sector, he constantly seeks to up-skill his expertise in the use of applied Statistics through the &lt;strong&gt;R&lt;/strong&gt; and &lt;strong&gt;PYTHON&lt;/strong&gt; programming languages, bundled with functional programming in &lt;strong&gt;F#&lt;/strong&gt; for package development for the &lt;strong&gt;.Net&lt;/strong&gt; framework integration.&lt;/p&gt;
 &lt;p&gt;In the night, he performs random data analysis and visualization to extract meaningful insights while exploring different statistical concepts and their applications in real world problems.&lt;/p&gt;
@@ -26,9 +26,9 @@
     
     <item>
       <title>Robert Ford</title>
-      <link>https://beyondrawdata.rbind.io/authors/robert-ford/</link>
+      <link>/authors/robert-ford/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://beyondrawdata.rbind.io/authors/robert-ford/</guid>
+      <guid>/authors/robert-ford/</guid>
       <description></description>
     </item>
     
