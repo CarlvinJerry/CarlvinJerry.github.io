@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-<<<<<<< HEAD
     <title>Data Mining | C A R L V I N || BEYOND RAW DATA</title>
-=======
-    <title>Data Mining | C A R L V I N  ||  BEYOND RAW DATA</title>
->>>>>>> aa7b99dc191d4e822dc5b10ae387008366fd6556
     <link>/tags/data-mining/</link>
       <atom:link href="/tags/data-mining/index.xml" rel="self" type="application/rss+xml" />
     <description>Data Mining</description>
@@ -296,14 +292,10 @@ For our case, we only focus on what we found:&lt;/p&gt;
 &lt;img src=&#34;https://media.giphy.com/media/3o6Mbmg6AchRmB4ylO/giphy.gif&#34; /&gt;
 &lt;center&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-<<<<<<< HEAD
 &lt;p&gt;With the help of APIs, we are easily able to get data from such platforms to be used for further analysis.
 In this article we will go through the preliminaries of text mining in R using Twitter data.
 The main advantage of these APIs is that the data we will fetch comes in a well-structured format which makes our work easier when crunching.
 In this case we will use the readily available Twitter API and create our own Twitter app that will then help in fetching the data.&lt;/p&gt;
-=======
-&lt;p&gt;With the help of APIs, we are easily able to get data from such platforms to be used for further analysis.In this article we will go through the preliminaries of text mining in R using Twitter data.The main advantage of these APIs is that the data we will fetch comes in a well-structured format which makes our work easier when crunching.In this case we will use the readily available Twitter API and create our own Twitter app that will then help in fetching the data.&lt;/p&gt;
->>>>>>> aa7b99dc191d4e822dc5b10ae387008366fd6556
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;creating-a-twitter-app&#34; class=&#34;section level1&#34;&gt;

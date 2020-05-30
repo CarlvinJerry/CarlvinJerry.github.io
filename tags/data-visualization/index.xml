@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-<<<<<<< HEAD
     <title>Data Visualization | C A R L V I N || BEYOND RAW DATA</title>
     <link>/tags/data-visualization/</link>
       <atom:link href="/tags/data-visualization/index.xml" rel="self" type="application/rss+xml" />
     <description>Data Visualization</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Carlvin .M., 2020</copyright><lastBuildDate>Fri, 29 May 2020 00:00:00 +0000</lastBuildDate>
-=======
-    <title>Data Visualization | C A R L V I N  ||  BEYOND RAW DATA</title>
-    <link>/tags/data-visualization/</link>
-      <atom:link href="/tags/data-visualization/index.xml" rel="self" type="application/rss+xml" />
-    <description>Data Visualization</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Carlvin .M., 2020</copyright><lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
->>>>>>> aa7b99dc191d4e822dc5b10ae387008366fd6556
     <image>
       <url>/img/Rplot.png</url>
       <title>Data Visualization</title>
@@ -21,7 +13,6 @@
     </image>
     
     <item>
-<<<<<<< HEAD
       <title>Password Etiquette</title>
       <link>/post/password-etiquette/</link>
       <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
@@ -41,7 +32,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;A small challenge for you &lt;a href=&#34;https://howsecureismypassword.net/&#34;&gt;here&lt;/a&gt;, check how long it would take a computer to crack your bank account password.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;I used &lt;a href=&#34;https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-01-14/readme.md&#34;&gt;#TidyTuesday’s passwords&lt;/a&gt; data with some more compromised passwords from kaggle for illustration. To keep it concise, all the code used in this post can be found &lt;a href=&#34;https://github.com/CarlvinJerry/sources/blob/master/content/post/password-etiquette/index.Rmd&#34;&gt;here&lt;/a&gt;. Shout out to my good friend and avid data analyst Martin who helped in building a password strength meter used in ranking passwords used here, you can read more on the tool (here)[&lt;a href=&#34;https://ndirangumartin.netlify.app/post/password-meter-in-r/&#34; class=&#34;uri&#34;&gt;https://ndirangumartin.netlify.app/post/password-meter-in-r/&lt;/a&gt;]. That being said, let’s get visual.&lt;/p&gt;
+&lt;p&gt;I used &lt;a href=&#34;https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-01-14/readme.md&#34;&gt;#TidyTuesday’s passwords&lt;/a&gt; data with some more compromised passwords from kaggle for illustration. To keep it concise, all the code used in this post can be found &lt;a href=&#34;https://github.com/CarlvinJerry/sources/blob/master/content/post/password-etiquette/index.Rmd&#34;&gt;here&lt;/a&gt;. Shout out to my good friend and avid data analyst &lt;a href=&#34;https://www.linkedin.com/in/martin-wanjiru-98414111a/&#34;&gt;Martin&lt;/a&gt; who helped in building a password strength meter used in ranking passwords used here, you can read more on the tool &lt;a href=&#34;https://ndirangumartin.netlify.app/post/password-meter-in-r/&#34;&gt;here&lt;/a&gt;. That being said, let’s get visual.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;skimming-through-the-data&#34; class=&#34;section level2&#34;&gt;
@@ -109,8 +100,6 @@ Source: &lt;a href=&#34;https://xkcd.com/936/&#34;&gt;comics&lt;/a&gt;
     </item>
     
     <item>
-=======
->>>>>>> aa7b99dc191d4e822dc5b10ae387008366fd6556
       <title>Tidy Tuesday</title>
       <link>/project/tidy-tuesday/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>

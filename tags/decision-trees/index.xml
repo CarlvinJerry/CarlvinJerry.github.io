@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-<<<<<<< HEAD
     <title>Decision trees | C A R L V I N || BEYOND RAW DATA</title>
-=======
-    <title>Decision trees | C A R L V I N  ||  BEYOND RAW DATA</title>
->>>>>>> aa7b99dc191d4e822dc5b10ae387008366fd6556
     <link>/tags/decision-trees/</link>
       <atom:link href="/tags/decision-trees/index.xml" rel="self" type="application/rss+xml" />
     <description>Decision trees</description>
