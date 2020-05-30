@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
     <title>Data Visualization on C A R L V I N || BEYOND RAW DATA</title>
     <link>/categories/data-visualization/</link>
     <description>Recent content in Data Visualization on C A R L V I N || BEYOND RAW DATA</description>
@@ -8,11 +9,21 @@
     <language>en-us</language>
     <copyright>&amp;copy; Carlvin .M., {year}</copyright>
     <lastBuildDate>Fri, 29 May 2020 00:00:00 +0000</lastBuildDate>
+=======
+    <title>Data Visualization on C A R L V I N  ||  BEYOND RAW DATA</title>
+    <link>/categories/data-visualization/</link>
+    <description>Recent content in Data Visualization on C A R L V I N  ||  BEYOND RAW DATA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Carlvin .M., {year}</copyright>
+    <lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
+>>>>>>> aa7b99dc191d4e822dc5b10ae387008366fd6556
     
 	<atom:link href="/categories/data-visualization/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+<<<<<<< HEAD
       <title>Password Etiquette</title>
       <link>/post/password-etiquette/</link>
       <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
@@ -101,6 +112,8 @@ Source: &lt;a href=&#34;https://xkcd.com/936/&#34;&gt;comics&lt;/a&gt;
     </item>
     
     <item>
+=======
+>>>>>>> aa7b99dc191d4e822dc5b10ae387008366fd6556
       <title>Tidy Tuesday</title>
       <link>/project/tidy-tuesday/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
