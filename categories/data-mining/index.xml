@@ -13,21 +13,24 @@
     
     
     <item>
-      <title>Digital Nudging</title>
+      <title>DIGITAL NUDGING</title>
       <link>/post/digital-nudging/</link>
       <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/digital-nudging/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;div id=&#34;introduction&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Introduction:&lt;/h1&gt;
+&lt;div id=&#34;introduction&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;INTRODUCTION&lt;/h4&gt;
 &lt;p&gt;Here’s a fun fact; An average human being (probably an adult) makes close to 30,000 conscious decisions every day. This isn’t entirely true though, in fact, I just made that number up. I could be right because if you think about it, how many decisions would you say you make on a day to day basis? Depending on who you are the above obviously varies widely and you know best. We all make &lt;strong&gt;&lt;strong&gt;n&lt;/strong&gt;&lt;/strong&gt; decisions every day- what to do, eat, buy or hit. The real question however is, do our daily choices solely depend on our consciousness? Are there any other factors at hand that influence our decision making process? Are all these factors, if any, always straight forward choices or do we sometimes get &lt;strong&gt;“nudged”&lt;/strong&gt; into these choices we make?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Nudge theory&lt;/strong&gt; basically states that; by understanding how people think and what drives their decisions, we can use those factors to steer them into making decisions differently, through positive reinforcement. Research has shown that, by presenting choices differently rather than in a legislative manner, people can be influenced into making specific desired choices. This theory is widely used in &lt;a href=&#34;https://en.wikipedia.org/wiki/Behavioral_economics&#34;&gt;&lt;strong&gt;behavioral economics&lt;/strong&gt;&lt;/a&gt; by presenting subtle &lt;strong&gt;nudge units&lt;/strong&gt; intended to influence people’s thoughts about financial products. The theory was however initially more of a moral aspect meant to help people make better decisions in life and not as a tool for commercial gain. Over years of practice, different applications of the theory emerged.&lt;/p&gt;
 &lt;p&gt;Now that we have a basic understanding of what nudge theory is about, we can explore an applicable example. This post mainly focuses on a short research project I happened to be part of, actually my first hackathon experience hosted by Safaricom PLC. Let’s dive in!&lt;/p&gt;
-&lt;div id=&#34;the-challenge&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;The Challenge&lt;/h3&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-challenge&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;THE CHALLENGE&lt;/h4&gt;
 &lt;p&gt;This photo a team mate took at the hackathon contains a problem statement for the challenge:&lt;/p&gt;
 &lt;/center&gt;
 &lt;figure&gt;
@@ -38,15 +41,14 @@ Figure 1: The challenge
 &lt;/figure&gt;
 &lt;/center&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;tools-used&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Tools used:&lt;/h1&gt;
+&lt;div id=&#34;tools-used&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;TOOLS USED:&lt;/h4&gt;
 &lt;p&gt;Our twitter data was fetched using &lt;strong&gt;R&lt;/strong&gt;, I have done a post on setting up a twitter API to fetch twitter data &lt;a href=&#34;https://beyondrawdata.rbind.io/2019/01/25/data-mining-in-r/&#34;&gt;here&lt;/a&gt;. &lt;strong&gt;R&lt;/strong&gt; has several packages (such as &lt;strong&gt;“tweeteR”&lt;/strong&gt; and &lt;strong&gt;“rtweet”&lt;/strong&gt;) that one can use to stream data from twitter. Our data cleaning and pre-processing was mainly done in &lt;strong&gt;Python&lt;/strong&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To keep this post concise, code for the workings has been minimized. &lt;a href=&#34;https://github.com/CarlvinJerry/sources/blob/master/content/post/2019-02-20-digital-nudging-rmd.Rmd&#34;&gt;The source code for this post can be found here,&lt;/a&gt; for anyone interested in trying out the same process. The code is well commented for easier understanding as well.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;div id=&#34;fetching-data&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;1.Fetching Data&lt;/h4&gt;
+&lt;div id=&#34;fetching-data&#34; class=&#34;section level5&#34;&gt;
+&lt;h5&gt;1.Fetching Data&lt;/h5&gt;
 &lt;p&gt;The team agreed on a few terms to query data on from twitter. For an unbiased range of topics, we settled on fetching tweets under trending topics and a few more from random words. We had tweets from or containing the following:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;#MenConference2019&lt;/strong&gt;&lt;br /&gt;
@@ -92,8 +94,8 @@ Figure 1: The challenge
 [88] &amp;quot;profile_image_url&amp;quot;      &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;data-pre-processing.&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;2.Data pre-processing.&lt;/h4&gt;
+&lt;div id=&#34;data-pre-processing.&#34; class=&#34;section level5&#34;&gt;
+&lt;h5&gt;2.Data pre-processing.&lt;/h5&gt;
 &lt;p&gt;This stage involved cleaning up our data by removing the unwanted columns/variables. We decided to do with a select few variables we thought would be most appropriate for our case study. We chose the following &lt;strong&gt;seven variables:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Text&lt;/strong&gt; - This column contained the actual tweets text.&lt;/li&gt;
@@ -107,8 +109,8 @@ Figure 1: The challenge
 &lt;p&gt;Code for the data cleanup and variables setting that was done in Python can be found &lt;a href=&#34;https://github.com/Ogutu-Brian/DataCleanup/blob/develop/analysis.py&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;re-importing-data-in-r-and-setting-up-for-the-models&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;2.1 Re-importing Data in R and setting up for the Models&lt;/h4&gt;
+&lt;div id=&#34;re-importing-data-in-r-and-setting-up-for-the-models&#34; class=&#34;section level5&#34;&gt;
+&lt;h5&gt;2.1 Re-importing Data in R and setting up for the Models&lt;/h5&gt;
 &lt;p&gt;After cleaning up the data, we imported it into R, the code chunk shows a preview of the top 4 rows of the input data.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;                                                                                                                                                                    Text
 1074                                                                                                                                                            Want to know how to optimize hyper-parameters in Caret with cost-specific functions? #rstats #datascience https://t.co/cupvirSXU9
@@ -191,18 +193,18 @@ Figure 1: The challenge
 &lt;p&gt;From the table above, we can observe a new column “Characters”. This was an additional variable derived by counting the number of characters in the tweet text.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
+&lt;/div&gt;
 &lt;div id=&#34;model-specifications&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;3.Model Specifications&lt;/h4&gt;
 &lt;p&gt;Due to the nature of our problem,(we had several uncorrelated variables) we decided to do a classification analysis. This means we had to come up with a classifier model to regress &lt;strong&gt;n&lt;/strong&gt; variables based on our dependent variable, the &lt;strong&gt;Location&lt;/strong&gt; variable. The main challenge of classifier models is knowing what really goes on inside the models that leads to the final output. Even with higher levels of accuracy in some models, it is quite difficult o understand the paths of a given model. However, using &lt;strong&gt;Random forests&lt;/strong&gt; and &lt;strong&gt;Decision Tree&lt;/strong&gt; classifiers can give us a graphical representation of the criteria followed by the models to arrive at a given output. Another upper hand of decision tree models is that they require minimal data cleaning, less time consuming. Here is a detailed read on &lt;a href=&#34;https://medium.com/x8-the-ai-community/decision-trees-an-intuitive-introduction-86c2b39c1a6c&#34;&gt;how decision trees work&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;creating-train-test-sets.&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Creating Train &amp;amp; Test Sets.&lt;/h1&gt;
+&lt;div id=&#34;subsetting-data-to-train-test-sets&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;SUBSETTING DATA TO &lt;code&gt;TRAIN&lt;/code&gt; &amp;amp; &lt;code&gt;TEST&lt;/code&gt; SETS&lt;/h4&gt;
 &lt;p&gt;For the training and test data sets, we randomly split our data set into two sates. Usually, the best practice is to train the model with with a larger proportion of the data set. We therefore took &lt;strong&gt;80%&lt;/strong&gt; for training and &lt;strong&gt;20%&lt;/strong&gt; for test purposes.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;model-training.&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Model Training.&lt;/h1&gt;
+&lt;div id=&#34;model-training&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;MODEL TRAINING&lt;/h4&gt;
 &lt;p&gt;We trained our decision tree model to predict a &lt;strong&gt;class&lt;/strong&gt; “location”. Whether a location is &lt;strong&gt;geotagged&lt;/strong&gt; or &lt;strong&gt;not geotagged&lt;/strong&gt; based on whether the user is verified, protected, has over 500 followers, is retweeted by another verified user and the number of characters in their tweet. Bellow is the visual output of the trained model.&lt;/p&gt;
 &lt;/center&gt;
 &lt;figure&gt;
@@ -221,21 +223,21 @@ For our case, we only focus on what we found:&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;Finally, looking at depth 4 which originates from the node that checks is number of characters is &lt;strong&gt;equal to or more than 122&lt;/strong&gt;, we can see that &lt;strong&gt;12 percent&lt;/strong&gt; of users had tweets with character equal to or more than 124, with &lt;strong&gt;88 percent probability&lt;/strong&gt; of geotagging their tweets.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;div id=&#34;model-testing-and-performance-accuracy.&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;3.1 Model Testing and performance accuracy.&lt;/h4&gt;
+&lt;div id=&#34;model-testing-and-performance-accuracy.&#34; class=&#34;section level5&#34;&gt;
+&lt;h5&gt;3.1 Model Testing and performance accuracy.&lt;/h5&gt;
 &lt;p&gt;With our model trained and outputs observed, we were able to run a test with our test subset. Here is our confusion matrix.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&#34;confusion-matrix&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Confusion matrix&lt;/h1&gt;
+&lt;div id=&#34;confusion-matrix&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;CONFUSION MATRIX&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;          predict_geotags
              NON-TAGGED TAGGED
   NON-TAGGED         90    248
   TAGGED              2   1043&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;model-accuracy&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Model Accuracy&lt;/h1&gt;
+&lt;div id=&#34;model-accuracy&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;MODEL ACCURACY&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;&amp;gt; #performance
 &amp;gt; accuracy_Test &amp;lt;- sum(diag(table_mat)) / sum(table_mat)
 &amp;gt; print(paste(&amp;#39;Accuracy for test is&amp;#39;, accuracy_Test))
@@ -247,17 +249,17 @@ For our case, we only focus on what we found:&lt;/p&gt;
 &lt;/center&gt;
 &lt;p&gt;For a better accuracy level, the model’s hyper-parameters can be tweaked to improve performance. Another option is implementing a random forest test.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;div id=&#34;conclusion-and-recommendation&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;4. Conclusion and Recommendation&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&#34;conclusion-recommendation&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;CONCLUSION &amp;amp; RECOMMENDATION&lt;/h4&gt;
 &lt;p&gt;With our decision tree model, we were able to attain a high level of accuracy for a model that test whether users with &lt;strong&gt;tweets containing characters equal to or above 122&lt;/strong&gt; are likely to geotag their tweets. Our &lt;strong&gt;nudge&lt;/strong&gt; in this case is the number of characters in a tweet and precisely, &lt;strong&gt;124 or more&lt;/strong&gt;. Our recommendation therefore would be to encourage users to tweet longer or engage them in trending topics that require one to write more, for example a TT like # MyLifeHistoryInANutshell…-in the hope that a user will eventually geotag their tweet.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Come to think of it, did twitter really increase the number of characters just for tweeps to tweet more and as they said, to get more people to join twitter? I have a theory, it was a NUDGE!&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;references&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;References&lt;/h1&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;REFERENCES&lt;/h4&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.businessballs.com/improving-workplace-performance/nudge-theory/&#34;&gt;Business balls official website&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Thaler, R.H., Sunstein, C.R., and Balz, J.P. Choice Architecture. SSRN Electronic Journal (2010), 1–18; &lt;a href=&#34;https://ssrn.com/abstract=1583509&#34; class=&#34;uri&#34;&gt;https://ssrn.com/abstract=1583509&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -273,35 +275,33 @@ For our case, we only focus on what we found:&lt;/p&gt;
     </item>
     
     <item>
-      <title>Twitter Data Mining In R</title>
+      <title>DATA MINING FROM TWITTER USING R</title>
       <link>/post/data-mining/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/data-mining/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;div id=&#34;PartI&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Part I&lt;/h2&gt;
+&lt;div id=&#34;PartI&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part I&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This first section assumes you have no knowledge in building a twitter app to be used for fetching data. You can skip directly to &lt;a href=&#34;#PartII&#34;&gt;the second section here&lt;/a&gt; if you are able to build your own twitter app and get the required authentication keys.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;div id=&#34;introduction&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Introduction:&lt;/h1&gt;
+&lt;div id=&#34;introduction&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;INTRODUCTION&lt;/h4&gt;
 &lt;p&gt;Social media usage has grown rapidly over the past few decades. Most social networks we can think of now are so well established, making them a platform where people can not only interact but also a haven for anyone in need of &lt;strong&gt;“unstructured”&lt;/strong&gt; data. With an almost constant rate of increasing users each day, social networks such as Facebook and Twitter have become great sources of data which can be used in the broad field of Data Science:Talk of (those pretty annoying) targeted ads for example…&lt;/p&gt;
 &lt;center&gt;
 &lt;img src=&#34;https://media.giphy.com/media/3o6Mbmg6AchRmB4ylO/giphy.gif&#34; /&gt;
 &lt;center&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;With the help of APIs, we are easily able to get data from such platforms to be used for further analysis.
-In this article we will go through the preliminaries of text mining in R using Twitter data.
-The main advantage of these APIs is that the data we will fetch comes in a well-structured format which makes our work easier when crunching.
-In this case we will use the readily available Twitter API and create our own Twitter app that will then help in fetching the data.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br /&gt;
+With the help of APIs, we can fetch data from such platforms to analyse and gather the information we want. In this post we will go through the preliminaries of text mining from twitter using R. The main advantage of twitter APIs is that the data extracted from them comes in a well-structured format, &lt;code&gt;dataframe&lt;/code&gt;, which makes our work easier when crunching.&lt;/p&gt;
+&lt;p&gt;In this case we will use the readily available Twitter API and create our own app to help us fetch the data.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;creating-a-twitter-app&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Creating a Twitter app&lt;/h1&gt;
+&lt;div id=&#34;creating-a-twitter-app&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;CREATING A TWITTER APP&lt;/h4&gt;
 &lt;p&gt;To create a twitter app we can use for fetching metadata, we first need to have a Twitter account. We then need to go to the &lt;a href=&#34;https://developer.twitter.com/&#34;&gt;&lt;strong&gt;twitter dev site&lt;/strong&gt;&lt;/a&gt; and log in with our user account.
 On the top right corner should be a drop down menu next to your username, go to APPS. At this point if you are doing this for the first time your &lt;strong&gt;Apps&lt;/strong&gt; section should be blank. Click on &lt;strong&gt;“Create an app”&lt;/strong&gt; to… create an app.&lt;/p&gt;
 &lt;center&gt;
@@ -320,7 +320,7 @@ I would ignore the Callback URL field. If you are allowing users to log into you
 &lt;/ul&gt;
 &lt;center&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://github.com/CarlvinJerry/sources/blob/master/static/MyImages/apps2.PNG?raw=true&#34; alt=&#34;App details&#34; /&gt;
+&lt;img src=&#34;https://github.com/CarlvinJerry/sources/blob/master/static/MyImages/apps2.PNG?raw=true&#34; alt=&#34;&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;App details&lt;/p&gt;
 &lt;/div&gt;
 &lt;/center&gt;
@@ -341,18 +341,19 @@ On your app is a menu with &lt;strong&gt;Keys and tokens&lt;/strong&gt;. These a
 &lt;hr /&gt;
 &lt;hr /&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;div id=&#34;PartII&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Part II&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&#34;setting-up-r-to-fetch-twitter-data&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Setting up R to fetch twitter data&lt;/h1&gt;
+&lt;div id=&#34;PartII&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part II&lt;/h3&gt;
+&lt;div id=&#34;setting-up-r-to-fetch-twitter-data&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;SETTING UP R TO FETCH TWITTER DATA&lt;/h4&gt;
 &lt;p&gt;With our twitter app set up &lt;a href=&#34;#PartI&#34;&gt;in part I above&lt;/a&gt; and we are able to get the authentication keys for the API, we can now easily fetch data from twitter in R. The following steps will help us do this:&lt;/p&gt;
 &lt;style&gt;
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 &lt;/style&gt;
-&lt;div class=&#34;blue&#34;&gt;
-&lt;h1 id=&#34;prerequisites&#34;&gt;Prerequisites:&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div id=&#34;prerequisites&#34; class=&#34;section level4 blue&#34;&gt;
+&lt;h4&gt;Prerequisites:&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Twitter API Keys:&lt;/strong&gt; At this point we already have our twitter app with the required API keys.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R and an IDE of choice:&lt;/strong&gt; We also need to have R installed, advisably the latest version. Microsoft’s &lt;a href=&#34;https://mran.microsoft.com/open&#34;&gt;&lt;strong&gt;enhanced R distribution&lt;/strong&gt;&lt;/a&gt; is recommended over the
@@ -360,9 +361,8 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;install-and-load-the-required-packages-in-r&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;1.Install and Load the required packages in R&lt;/h1&gt;
+&lt;div id=&#34;install-and-load-the-required-packages-in-r&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;1.Install and Load the required packages in R&lt;/h4&gt;
 &lt;p&gt;R has a standard set of packages, each with different tasks. You can find some packages for download&lt;br /&gt;
 &lt;a href=&#34;https://cran.cnr.berkeley.edu/&#34;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;. The code chunk below installs and loads the specific packages we need for this task. Take note of comments at each line of code, initiated by an octothorp.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Install packages
@@ -377,8 +377,8 @@ require(&amp;quot;httr&amp;quot;) #-------------Both require() and library() can
 download.file(url = &amp;quot;https://curl.haxx.se/ca/cacert.pem&amp;quot;, destfile = &amp;quot;cacert.pem&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;create-and-store-objects-containing-the-twitter-authenticated-credentials&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;2.Create and store objects containing the twitter authenticated credentials&lt;/h1&gt;
+&lt;div id=&#34;create-and-store-objects-containing-the-twitter-authenticated-credentials&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;2.Create and store objects containing the twitter authenticated credentials&lt;/h4&gt;
 &lt;p&gt;This is where we invoke the twitter API using the credentials from our app and query the data we need.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Authentication keys
 consumer_key &amp;lt;- &amp;quot;hjksdha08097afnjhaa90uaf&amp;quot;
@@ -389,8 +389,8 @@ access_secret &amp;lt;- &amp;quot;hjksdha08097afnjhaa90uaf&amp;quot;
 # The above tokens are what we made the twitter app for.&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;query-data-from-twitter&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;3.Query data from twitter&lt;/h1&gt;
+&lt;div id=&#34;query-data-from-twitter&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;3.Query data from twitter&lt;/h4&gt;
 &lt;p&gt;We can now go ahead and fetch our data. Due to limitations on the twitter standard apps, it is advisable to store your data in R locally. This will reduce the number of times you have to make requests to fetch data. You will therefore do much more with your app that way regardless of the limitations- Or you can as well buy the premium rights. In my example below, I am fetching data for a user on twitter called &lt;span class=&#34;citation&#34;&gt;@UKenyatta&lt;/span&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Connect to Twitter
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
@@ -411,6 +411,7 @@ save(UKenyatta_Tweets, file = &amp;quot;UKenyatta_Tweets.RData&amp;quot;)
 &lt;img src=&#34;https://fontmeme.com/permalink/190129/8b378e9ce35b7a28dd150c4f1d656807.png&#34; /&gt;
 &lt;/center&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>

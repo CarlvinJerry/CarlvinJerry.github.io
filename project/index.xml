@@ -18,6 +18,7 @@
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       <guid>/project/tidy-tuesday/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
   &lt;link rel=&#34;stylesheet&#34; href=&#34;custom.css&#34; type=&#34;text/css&#34; /&gt;
 
 
@@ -113,6 +114,7 @@ Highlighting top 1000 nukes by yield, Bravo yielded the most megatons:15 followe
       <pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate>
       <guid>/project/shiny-apps/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;motivation&#34; class=&#34;section level1&#34;&gt;

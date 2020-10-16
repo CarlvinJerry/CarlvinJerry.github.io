@@ -13,47 +13,45 @@
     </image>
     
     <item>
-      <title>Password Etiquette</title>
+      <title>PASSWORD ETIQUTTE</title>
       <link>/post/password-etiquette/</link>
       <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
       <guid>/post/password-etiquette/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;blockquote&gt;
-&lt;p&gt;I got bitten by the famous procrastination bug earlier this year, so I missed out on #TidyTuesday’s week 3(2020) challenge. As a make-up, I thought I should do it here instead and maybe someone will learn one or two things about security, digital privacy to be precise.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;div id=&#34;introduction&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;Introduction&lt;/h4&gt;
+&lt;h4&gt;INTRODUCTION&lt;/h4&gt;
 &lt;p&gt;Exposing ourselves to cyber attacks comes as easy as having access to the internet. Almost every website you visit will require you to create an account to be able to access significant information or services from them - So where exactly does the problem with password strength begin? Memory methinks…&lt;/p&gt;
 &lt;p&gt;The whole purpose of memory is to preserve information. Events, names, faces, mathematical formulas etcetera, all seem recognizable every time we recollect because the mind memorizes them. I don’t know how exactly remembering works, but you will agree with me on this; the memory is sometimes very unreliable when it comes to cramming passwords. It is for this very reason that, in the quest for memorizing our passwords, we find ourselves using weak passwords.&lt;/p&gt;
-&lt;p&gt;Different folk memorize passwords differently; some of us share passwords across platforms (very counter intuitive if you actually think about it re cyber security), some use personal information such as names, birthdays, pet names 😃 and what have you. My point is, we cannot fully trust ourselves to match brute force algorithms trying to hack their way into our Facebook(s), Instagram(s) and worse for me, online banking and credit card accounts. So here are a few Ps and Qs for setting up passwords.&lt;/p&gt;
+&lt;p&gt;Different folk memorize passwords differently; some of us share passwords across platforms (very counter intuitive if you actually think about it re cyber security), some use personal information such as names, birthdays, pet names 😆 and what have you. My point is, we cannot fully trust ourselves to match brute force algorithms trying to hack their way into our Facebook(s), Instagram(s) and worse for me, online banking and credit card accounts. So here are a few Ps and Qs for setting up passwords.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A small challenge for you &lt;a href=&#34;https://howsecureismypassword.net/&#34;&gt;here&lt;/a&gt;, check how long it would take a computer to crack your bank account password.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;I used &lt;a href=&#34;https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-01-14/readme.md&#34;&gt;#TidyTuesday’s passwords&lt;/a&gt; data with some more compromised passwords from kaggle for illustration. To keep it concise, all the code used in this post can be found &lt;a href=&#34;https://github.com/CarlvinJerry/sources/blob/master/content/post/password-etiquette/index.Rmd&#34;&gt;here&lt;/a&gt;. Shout out to my good friend and avid data analyst &lt;a href=&#34;https://www.linkedin.com/in/martin-wanjiru-98414111a/&#34;&gt;Martin&lt;/a&gt; who helped in building a password strength meter used in ranking passwords used here, you can read more on the tool &lt;a href=&#34;https://ndirangumartin.netlify.app/post/password-meter-in-r/&#34;&gt;here&lt;/a&gt;. That being said, let’s get visual.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;skimming-through-the-data&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Skimming through the data&lt;/h2&gt;
+&lt;div id=&#34;skimming-through-the-data&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;SKIMMING THROUGH THE DATA&lt;/h4&gt;
 &lt;p&gt;The graph bellow shows a scattered distribution of a small fraction of our compromised passwords. You want to ensure that if your passwords get parsed through this chart, they are on the bottom, far left of the chart i.e, the passwords are unique and exhibit stronger strengths. That way, you know that even a computer will take quite some time before cracking it. The further and lower it is along the x-axis,the smaller it should be to indicate uniqueness and the stronger it is hence the green color.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/post/password-etiquette/index_files/figure-html/ChatterPlot-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;On the contrary, we have quite a lot of passwords clustered in between 0-35 on the strength meter. If you look at those passwords, it should be quite obvious that they’re weak. This would explain why we have them here as our data. This chart shows most of the aspects of a password that I’ll be discussing below.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;creating-secure-passwords&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Creating secure passwords&lt;/h2&gt;
-&lt;div id=&#34;dont-share-passwords&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;#1.Don’t share passwords&lt;/h3&gt;
+&lt;div id=&#34;creating-secure-passwords&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;CREATING SECURE PASSWORDS&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&#34;dont-share-passwords&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;1.Don’t share passwords&lt;/h4&gt;
 &lt;p&gt;I mean, think about your bank accounts if your excuse is “I don’t have any vital information on me anyway”. Every time you share passwords across platforms, you make life easier for an attacker. Chances are this shared password is really strong and so you might think, why not? But here’s the catch, a wise hacker understands that you might have done this, and all he has to do is gain access to that account you think has no information about you and look for an identity. With this little precious piece of information, it’s easier for them to try out the accounts you know are actually important. Bank accounts and online shopping cards could tell you this if they were human.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;regularly-change-your-passwords&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;#2.Regularly change your passwords&lt;/h3&gt;
+&lt;div id=&#34;regularly-change-your-passwords&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;2.Regularly change your passwords&lt;/h4&gt;
 &lt;p&gt;First of all, if you’re too lazy to change a default password that some sites offer newbies, you deserve to be hacked. Start by creating a password of your own. Every now and then, you want to review and update your passwords because hackers are improving on a daily too.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;personal-information-is-a-plea-to-be-hacked&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;#3.Personal information is a plea to be hacked&lt;/h3&gt;
+&lt;div id=&#34;personal-information-is-a-plea-to-be-hacked&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;3.Personal information is a plea to be hacked&lt;/h4&gt;
 &lt;p&gt;I remember using my own name on MySpace for a password, good days those ones. Times have changed and so should you. Hackers who guess passwords start basic. Your name will be first, then popular pet names because they saw you pose with your cats on Facebook. To put it in perspective, here’s how cute you look to hackers when you use your personal information as passwords. Same goes for using dictionary words for passwords.&lt;/p&gt;
 &lt;/center&gt;
 &lt;figure&gt;
@@ -61,17 +59,17 @@
 &lt;/figure&gt;
 &lt;/center&gt;
 &lt;/div&gt;
-&lt;div id=&#34;longer-passwords-are-safer-passwords&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;#4. Longer passwords are safer passwords&lt;/h3&gt;
-&lt;div id=&#34;variable-distributions&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;Variable Distributions&lt;/h4&gt;
+&lt;div id=&#34;longer-passwords-are-safer-passwords&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;4. Longer passwords are safer passwords&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&#34;a-look-variable-distributions&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;A look Variable Distributions&lt;/h4&gt;
 &lt;p&gt;Here we have another plot showing distribution of our passwords based on length.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/post/password-etiquette/index_files/figure-html/passwords%20length-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;fa-is-your-friend-use-it&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;#5. 2FA is your friend, use it&lt;/h3&gt;
+&lt;div id=&#34;fa-is-your-friend-use-it&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;5. 2FA is your friend, use it&lt;/h4&gt;
 &lt;p&gt;Two-factor authentication offers an extra protection to your accounts. In an event someone cracks your password, they will require a security code to gain access to the account. This code is usually sent to a mobile number registered to the said account, one cannot access the account without keying in the right code. Have it enabled if it’s available.&lt;/p&gt;
 &lt;/center&gt;
 &lt;figure&gt;
@@ -83,14 +81,13 @@ Source: &lt;a href=&#34;https://xkcd.com/936/&#34;&gt;comics&lt;/a&gt;
 &lt;/center&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Much as it’s possible to do all these on your own, a password manager is your best shot. With a password manager, you only have to worry about one &lt;code&gt;master password&lt;/code&gt;. A password manager stores all your sensitive passwords for you, runs frequent checks on them and generates new stronger passwords for you as well, that way your memory won’t fail you. Most password managers automatically recognize a website whenever visited and will automatically fill in your credentials. I personally use the free version of &lt;a href=&#34;https://www.lastpass.com/&#34;&gt;Lastpass&lt;/a&gt;, there are many more which are entirely free or on subscription basis. You can read more about them &lt;a href=&#34;https://en.wikipedia.org/wiki/Password_manager&#34;&gt;here&lt;/a&gt;. I’m out 😄.&lt;/p&gt;
+&lt;p&gt;Much as it’s possible to do all these on your own, a password manager is your best shot. With a password manager, you only have to worry about one &lt;code&gt;master password&lt;/code&gt;. A password manager stores all your sensitive passwords for you, runs frequent checks on them and generates new stronger passwords for you as well, that way your memory won’t fail you. Most password managers automatically recognize a website whenever visited and will automatically fill in your credentials. I personally use the free version of &lt;a href=&#34;https://www.lastpass.com/&#34;&gt;Lastpass&lt;/a&gt;, there are many more which are entirely free or on subscription basis. You can read more about them &lt;a href=&#34;https://en.wikipedia.org/wiki/Password_manager&#34;&gt;here&lt;/a&gt;. Stay safe 😄.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;center&gt;
 &lt;p&gt;&lt;img src=&#34;https://fontmeme.com/permalink/190129/8b378e9ce35b7a28dd150c4f1d656807.png&#34; /&gt;&lt;/p&gt;
 &lt;center&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -101,6 +98,7 @@ Source: &lt;a href=&#34;https://xkcd.com/936/&#34;&gt;comics&lt;/a&gt;
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       <guid>/project/tidy-tuesday/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
   &lt;link rel=&#34;stylesheet&#34; href=&#34;custom.css&#34; type=&#34;text/css&#34; /&gt;
 
 
@@ -191,18 +189,19 @@ Highlighting top 1000 nukes by yield, Bravo yielded the most megatons:15 followe
     </item>
     
     <item>
-      <title>Exploratory Data Analysis</title>
+      <title>TUTORIAL: EXPLORATORY DATA ANALYSIS</title>
       <link>/post/exploratory-data-analysis/</link>
       <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
       <guid>/post/exploratory-data-analysis/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;blockquote&gt;
 &lt;p&gt;“The goal is to turn data into information and information into insight.” – Carly Fiorina, former chief executive officer, Hewlett Packard.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;div id=&#34;introduction&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;INTRODUCTION&lt;/h3&gt;
+&lt;div id=&#34;introduction&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;INTRODUCTION&lt;/h4&gt;
 &lt;p&gt;If you are familiar with data analysis then I’m certain that you fully relate to the above statement. After all, it would be pointless to play around with lots of data just for the love of it, sometimes not but you get the point.&lt;/p&gt;
 &lt;p&gt;Data is gold, and the more you have the better off you are. However, raw unprocessed data is of no use unless you manipulate and gain insights from it. Before embarking on say statistical modelling and visualization of your data, it is very important to first have an understanding of the data itself. Exploratory Data Analysis (&lt;strong&gt;EDA&lt;/strong&gt;) aids in visualization, transformation, and generally cleaning or remodeling data before diving deep into information extraction.&lt;/p&gt;
 &lt;p&gt;There are no set rules to be followed when performing EDA. As a data preparation phase, one is allowed to decide what suits them best in order to gain an understanding of their data. However, there are two most important questions one should seek to answer while studying their data:&lt;/p&gt;
@@ -234,12 +233,13 @@ Highlighting top 1000 nukes by yield, Bravo yielded the most megatons:15 followe
 &lt;/ul&gt;
 &lt;p&gt;In this post, we will perform EDA on a sample data set containing responses to a mobile banking survey in Kenya. If you would like to follow along with the same data, you can download it &lt;a href=&#34;https://github.com/CarlvinJerry/sources/blob/master/data/Mobile%20Banking%20in%20Kenya.csv&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;data-importation&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Data Importation&lt;/h1&gt;
+&lt;div id=&#34;data-importation&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;DATA IMPORTATION&lt;/h4&gt;
 &lt;p&gt;The code chunk below imports our data set into R.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Loading Data into R  toc_depth: 2
 mobileBanking.Df &amp;lt;- read.csv(&amp;quot;J://Personalprojects//Blogsite//data//MobileBankinginKenya.csv&amp;quot;, header = TRUE, stringsAsFactors = FALSE )
 mobileBanking.Df &amp;lt;- mobileBanking.Df[,-1] #Remove the number column which is Irrelevant&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 &lt;div id=&#34;data-inspection&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;1.0.0 Data Inspection&lt;/h4&gt;
 &lt;p&gt;Once our sample data set is loaded, we check for features present. We first need to load all the libraries needed for data analysis and manipulation.&lt;/p&gt;
@@ -323,12 +323,13 @@ summary(mobileBanking.Df)
 &lt;p&gt;&lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;getting-insights-from-the-data&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;2.0.0 Getting Insights from the data&lt;/h3&gt;
-&lt;div id=&#34;descriptive-statistics-for-categorical-data&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;2.1.0 Descriptive Statistics For Categorical Data&lt;/h4&gt;
+&lt;div id=&#34;getting-insights-from-the-data&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;2.0.0 Getting Insights from the data&lt;/h4&gt;
+&lt;div id=&#34;descriptive-statistics-for-categorical-data&#34; class=&#34;section level5&#34;&gt;
+&lt;h5&gt;2.1.0 Descriptive Statistics For Categorical Data&lt;/h5&gt;
 &lt;p&gt;The main goal of descriptive statistics is to inform data analysts on the main features of either numerical or categorical data, using sample summaries represented as either tables, individual numbers or charts and graphs. Since we only have categorical data, I will illustrate the most used forms of descriptive statistics for the same. However, like I mentioned earlier, there are more than enough ways to analyze data in R.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;div id=&#34;frequencies&#34; class=&#34;section level5&#34;&gt;
 &lt;h5&gt;2.1.1 Frequencies&lt;/h5&gt;
 &lt;p&gt;&lt;strong&gt;Frequencies&lt;/strong&gt; illustrate the number of occurrences or observations of a particular category in data. We use &lt;a href=&#34;https://en.wikipedia.org/wiki/Contingency_table&#34;&gt;contigency tables&lt;/a&gt; to present this information. In R this can be achieved using the &lt;strong&gt;&lt;em&gt;table()&lt;/em&gt;&lt;/strong&gt; function.&lt;/p&gt;
@@ -422,9 +423,8 @@ prop.table(table(mobileBanking.Df$Gender, mobileBanking.Df$MB.Safety), margin = 
 ##   Female 1.0000000 0.3666667 0.6000000
 ##   Male   0.0000000 0.6333333 0.4000000&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;visualizing-distributions&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;2.2.0 Visualizing Distributions&lt;/h4&gt;
+&lt;div id=&#34;visualizing-distributions&#34; class=&#34;section level5&#34;&gt;
+&lt;h5&gt;2.2.0 Visualizing Distributions&lt;/h5&gt;
 &lt;p&gt;The code chunk bellow is a function that takes in our data set and plots all the present variables in it. Since we have categorical variable only, we will use &lt;strong&gt;bar plots&lt;/strong&gt; for visualization. They are the most appropriate for categorical data.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Loading Data into R  toc_depth: 2
 mobileBanking.Df &amp;lt;- read.csv(&amp;quot;J://Personalprojects//Blogsite//data//MobileBankinginKenya.csv&amp;quot;, header = TRUE, stringsAsFactors = FALSE )
@@ -469,6 +469,7 @@ plotDen &amp;lt;- function(data_in, i){
   
 }&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;variable-distributions&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;Variable Distributions&lt;/h4&gt;
@@ -515,10 +516,8 @@ doPlots(mobileBanking.Df_cat, fun = plotHist, ii = 1:4, ncol = 2)&lt;/code&gt;&l
 &lt;p&gt;Despite being majorly satisfied by the services, most respondents did not find mobile banking services very safe. It is also seen as time saving which is probably why we had very few bank visits in general.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;conclusion-from-variable-distributions&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Conclusion from variable distributions&lt;/h1&gt;
+&lt;div id=&#34;conclusion-from-variable-distributions&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Conclusion from variable distributions&lt;/h4&gt;
 &lt;p&gt;It can be concluded that mobile banking is mainly preferred by younger people, a majority being of the male gender. However, the only benefit most users find from mobile banking seems to be the convenience it brings. Safety is still a major concern.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
@@ -540,6 +539,7 @@ doPlots(mobileBanking.Df_cat, fun = plotHist, ii = 1:4, ncol = 2)&lt;/code&gt;&l
       <pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate>
       <guid>/project/shiny-apps/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;motivation&#34; class=&#34;section level1&#34;&gt;
